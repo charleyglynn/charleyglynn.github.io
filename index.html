@@ -14,17 +14,23 @@
 <body>
 
 <div id='map'></div>
+<br />
+<button class='col6 margin3 fill-blue' onclick='fly();' id='fly'>Fly</button>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
-if (!mapboxgl.util.supported()) {
-  alert('Your browser does not support Mapbox GL');
-} else {
-  var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'https://www.mapbox.com/mapbox-gl-styles/styles/outdoors-v4.json',
-    center: [40, -74.50],
-    zoom: 9 
-  });
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'https://www.mapbox.com/mapbox-gl-styles/styles/outdoors-v4.json',
+  center: [40, -74.50],
+  zoom: 9
+});
+
+function fly() {
+    // Fly to a random location by offsetting the point 40, -74.50
+    // by up to 5 degrees.
+    map.flyTo([
+        40 + (Math.random() - 0.5) * 10,
+        -74.50 + (Math.random() - 0.5) * 10]);
 }
 </script>
 
