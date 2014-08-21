@@ -33,7 +33,7 @@
     "@water_night": "#103",
     "@water_dark_night": "#003366",
     "@crop_night": "#178d96",
-    "@grass_night": "#23948a",
+    "@grass_night": "#000",
     "@scrub_night": "#31a186",
     "@wood_night": "#45b581",
     "@park_night": "#51bd8b",
