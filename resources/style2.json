@@ -3,7 +3,7 @@
   "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/outdoors",
   "glyphs": "https://mapbox.s3.amazonaws.com/gl-glyphs-256/{fontstack}/{range}.pbf",
   "constants": {
-    "@land": "rgb(244,239,225)",
+    "@land": "rgb(100,198,220)",
     "@water": "#ddd",
     "@water_dark": "#185869",
     "@crop": "#eeeed4",
