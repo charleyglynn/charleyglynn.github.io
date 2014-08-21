@@ -4,7 +4,7 @@
   "glyphs": "https://mapbox.s3.amazonaws.com/gl-glyphs-256/{fontstack}/{range}.pbf",
   "constants": {
     "@land": "rgb(244,239,225)",
-    "@water": "#cdd",
+    "@water": "#ddd",
     "@water_dark": "#185869",
     "@crop": "#eeeed4",
     "@grass": "#e6e6cc",
