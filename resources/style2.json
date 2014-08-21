@@ -190,8 +190,7 @@
   }, {
     "id": "landcover_grass",
     "source": "mapbox",
-    "source-layer": "landcover",
-    "filter": { "class": "grass" },
+    "source-layer": "OGRGeoJSON",
     "style": {
       "fill-color": "@grass",
       "fill-opacity": {
