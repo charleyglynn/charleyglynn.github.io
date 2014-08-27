@@ -1,35 +1,28 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8' />
-    <title></title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.2.2/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.2.2/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
 </head>
 <body>
 
 <div id='map'></div>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
-var map = new mapboxgl.Map({
-  container: 'map', // container id
-  style: 'resources/style.json', //stylesheet location
-  center: [54.877, -1.802], // starting position 
-  zoom: 6 // starting zoom
-});
-
-// Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.Navigation());
+L.mapbox.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
+var map = L.mapbox.map('map', 'truetoffee.a3beff07')
+    .setView([54.877, -1.802], 9);
 </script>
 
 </body>
 </html>
+
+
 
 
