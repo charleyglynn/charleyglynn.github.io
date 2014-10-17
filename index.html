@@ -26,7 +26,7 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
   var map = L.mapbox.map('map', null, {
       maxZoom: 18
-  }).setView([22.76, -25.84], 3);
+  }).setView([53.827, -1.653], 7);
 
   var layers = {
       ZoomMap: L.mapbox.tileLayer('truetoffee.846aa8f0'),
@@ -34,7 +34,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNe
       ZoomMap Lite: L.mapbox.tileLayer('truetoffee.b2475b29')
   };
 
-  layers.Streets.addTo(map);
+  layers.ZoomMap.addTo(map);
   L.control.layers(layers).addTo(map);
 </script>
 
