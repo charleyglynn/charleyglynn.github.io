@@ -83,7 +83,7 @@ map.on('zoomend', zoom);
 
 function zoom(e) {
     if (zoommap._loaded) zoommap.setZoom(e.target.getZoom() + 1);
-}
+} 
 
 function update(e) {
     zl.style.top = ~~e.containerPoint.y - 100 + 'px';
