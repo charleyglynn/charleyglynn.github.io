@@ -148,7 +148,7 @@
     "source": "mapbox",
     "source-layer": "strategi_woodland",
     "style": {
-      "fill-color": "@snow"
+      "fill-color": "@woodland"
     },
     "type": "fill"
   }, {
