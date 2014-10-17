@@ -144,9 +144,9 @@
     },
     "type": "background"
   }, {
-    "id": "woodland",
+    "id": "strategi_woodland",
     "source": "mapbox",
-    "source-layer": "woodland",
+    "source-layer": "strategi_woodland",
     "style": {
       "fill-color": "@snow"
     },
