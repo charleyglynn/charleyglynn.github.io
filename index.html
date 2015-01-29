@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Toggling baselayers</title>
+<title>Zoom and Leisure</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -25,16 +25,15 @@
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
   var map = L.mapbox.map('map', null, {
-      maxZoom: 17
-  }).setView([53.827, -1.653], 7);
+      maxZoom: 18
+  }).setView([53.378, -1.452], 13);
 
   var layers = {
-      ZoomMap: L.mapbox.tileLayer('truetoffee.846aa8f0'),
-      Night: L.mapbox.tileLayer('truetoffee.0da1b1a0'),
-      Lite: L.mapbox.tileLayer('truetoffee.b2475b29')
+      Zoom: L.mapbox.tileLayer('truetoffee.846aa8f0'),
+      Leisure: L.mapbox.tileLayer('truetoffee.l2n7kbcp'),
   };
 
-  layers.ZoomMap.addTo(map);
+  layers.Zoom.addTo(map);
   L.control.layers(layers).addTo(map);
 </script>
 
