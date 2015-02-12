@@ -1,43 +1,44 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset=utf-8 />
-<title>Zoom and Leisure</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
-</head>
-<body>
+  <head>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
+    <style>
+        body {
+          padding: 0;
+          margin: 0;
+        }
 
-<style>
-    body { margin: 0; padding: 0; }
-    #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
-</head>
+        html, body, #map {
+          height: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+    </div>
 
-<div id='map'></div>
+    <script>
+      var map = L.map('map', {
+          center: [50.9087036, -1.4045204],
+          zoom: 18
+      });
 
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
-  var map = L.mapbox.map('map', null, {
-      maxZoom: 18
-  }).setView([53.378, -1.452], 13);
+      var tileLayer = L.tileLayer('http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      });
 
-  var layers = {
-      Zoom: L.mapbox.tileLayer('truetoffee.846aa8f0'),
-      Leisure: L.mapbox.tileLayer('truetoffee.l2n7kbcp'),
-      Satellite: L.mapbox.tileLayer('mapbox.satellite'),
-  };
+      tileLayer.addTo(map);
 
-  layers.Leisure.addTo(map);
-  L.control.layers(layers).addTo(map);
-</script>
+      // Add a marker over the Art House Cafe
 
+      var marker = L.marker([50.9087036, -1.4045204])
 
-</body>
+      marker.addTo(map);
+
+      // Add a popup to the marker
+
+      marker.bindPopup("Maptime Southampton!");
+    </script>
+  </body>
 </html>
