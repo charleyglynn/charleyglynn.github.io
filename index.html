@@ -1,373 +1,97 @@
+<!DOCTYPE html>
 <html>
-  <head>
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<head>
+<meta charset=utf-8 />
+<title>Zoom lens</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
 
-    <style>
-        body {
-          padding: 0;
-          margin: 0;
-        }
 
-        html, body, #map {
-          height: 100%;
-        }
-    </style>
-  </head>
-  <body>
-    <div id="map">
+<style>
+#map {
+  pointer-events:all;
+  cursor:none
+  }
+#zoommap {
+  background:#73b5e5;
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  -webkit-transform:rotate(-60deg);
+     -moz-transform:rotate(-60deg);
+      -ms-transform:rotate(-60deg);
+       -o-transform:rotate(-60deg);
+          transform:rotate(-60deg);
+  }
+#zoomlens {
+  overflow:visible;
+  top:-9999px;
+  left:-9999px;
+  }
+#border {
+  border:5px solid #404040;
+  border-radius:50%;
+  box-shadow:0 0 10px rgba(0,0,0,0.25);
+  }
+.overlay {
+  position:absolute;
+  pointer-events:none;
+  overflow:hidden;
+  width:200px;
+  height:200px;
+  z-index:1000;
+  }
+.rotater {
+  -webkit-transform:rotate(30deg);
+     -moz-transform:rotate(30deg);
+      -ms-transform:rotate(30deg);
+       -o-transform:rotate(30deg);
+          transform:rotate(30deg);
+  }
+</style>
+<div id='map'></div>
+<div id='zoomlens' class='overlay'>
+    <div class='overlay rotater'>
+        <div class='overlay rotater'>
+            <div id='zoommap' class='overlay'></div>
+        </div>
     </div>
+    <div id='border' class='overlay'></div>
+</div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
+var map = L.mapbox.map('map', 'truetoffee.846aa8f0');
+var zoommap = L.mapbox.map('zoommap', 'truetoffee.de04cb53', {
+    fadeAnimation: false,
+    zoomControl: false,
+    attributionControl: false
+});
 
-    <script>
-      var map = L.map('map', {
-          center: [50.925, -1.504],
-          zoom: 15
-      });
+var zl = document.getElementById('zoomlens');
 
-      var tileLayer = L.tileLayer('http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
-      });
+// Call update or zoom functions when
+// these events occur.
+map.on('mousemove', update);
+map.on('zoomend', zoom);
 
-      tileLayer.addTo(map);
-
-var data = {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.5130770206451416,
-            50.92388766437252
-          ],
-          [
-            -1.5132272243499756,
-            50.9238538496329
-          ],
-          [
-            -1.5134739875793457,
-            50.9238403237302
-          ],
-          [
-            -1.5135598182678223,
-            50.923576567841074
-          ],
-          [
-            -1.513817310333252,
-            50.92351570088509
-          ],
-          [
-            -1.5139031410217285,
-            50.92345483384946
-          ],
-          [
-            -1.5139782428741455,
-            50.923360151635784
-          ],
-          [
-            -1.5140962600708008,
-            50.92307610383856
-          ],
-          [
-            -1.5141713619232178,
-            50.9228326329178
-          ],
-          [
-            -1.5126478672027588,
-            50.92216984451171
-          ],
-          [
-            -1.5120470523834229,
-            50.92182492027932
-          ],
-          [
-            -1.5108883380889893,
-            50.921236514216474
-          ],
-          [
-            -1.5096008777618408,
-            50.92059399334986
-          ],
-          [
-            -1.508173942565918,
-            50.91995146361052
-          ],
-          [
-            -1.5077662467956543,
-            50.91972826699312
-          ],
-          [
-            -1.5073907375335693,
-            50.91932921582708
-          ],
-          [
-            -1.5067040920257566,
-            50.91893692490434
-          ],
-          [
-            -1.5053629875183103,
-            50.91827408100248
-          ],
-          [
-            -1.5043222904205322,
-            50.91774650461798
-          ],
-          [
-            -1.5041184425354004,
-            50.91758417221941
-          ],
-          [
-            -1.5038073062896729,
-            50.9176315192275
-          ],
-          [
-            -1.503227949142456,
-            50.91764504693523
-          ],
-          [
-            -1.501908302307129,
-            50.91757740835717
-          ],
-          [
-            -1.501232385635376,
-            50.91757064449396
-          ],
-          [
-            -1.5000951290130615,
-            50.917624755372124
-          ],
-          [
-            -1.4996016025543213,
-            50.91761799151579
-          ],
-          [
-            -1.4989149570465088,
-            50.91757740835717
-          ],
-          [
-            -1.4978957176208496,
-            50.917408311481864
-          ],
-          [
-            -1.4971768856048584,
-            50.917286561351155
-          ],
-          [
-            -1.496704816818237,
-            50.91724597790348
-          ],
-          [
-            -1.4961683750152588,
-            50.9172595057233
-          ],
-          [
-            -1.4946019649505615,
-            50.917313616963284
-          ],
-          [
-            -1.4938938617706299,
-            50.91735420035198
-          ],
-          [
-            -1.4929282665252683,
-            50.91750300580773
-          ],
-          [
-            -1.4920377731323242,
-            50.91770592157144
-          ],
-          [
-            -1.4919734001159668,
-            50.91781414295028
-          ],
-          [
-            -1.4918875694274902,
-            50.91786825354533
-          ],
-          [
-            -1.4916729927062988,
-            50.917908836450295
-          ],
-          [
-            -1.4911901950836182,
-            50.91808469529627
-          ],
-          [
-            -1.491243839263916,
-            50.91832819106268
-          ],
-          [
-            -1.4912223815917967,
-            50.91872048711743
-          ],
-          [
-            -1.4904606342315674,
-            50.91905867071703
-          ],
-          [
-            -1.4903855323791504,
-            50.919281870546385
-          ],
-          [
-            -1.4909327030181885,
-            50.91962005006594
-          ],
-          [
-            -1.4914476871490479,
-            50.91989059191195
-          ],
-          [
-            -1.4914476871490479,
-            50.91993793657328
-          ],
-          [
-            -1.4914476871490479,
-            50.91999880820992
-          ],
-          [
-            -1.492166519165039,
-            50.92039785363345
-          ],
-          [
-            -1.4926064014434814,
-            50.920742788445274
-          ],
-          [
-            -1.494140625,
-            50.92198723788369
-          ],
-          [
-            -1.4948272705078125,
-            50.9224471346875
-          ],
-          [
-            -1.496490240097046,
-            50.92340749276672
-          ],
-          [
-            -1.4983463287353516,
-            50.92473978769696
-          ],
-          [
-            -1.4992260932922363,
-            50.925456641262656
-          ],
-          [
-            -1.499934196472168,
-            50.92644398752286
-          ],
-          [
-            -1.5008354187011719,
-            50.92770180925395
-          ],
-          [
-            -1.5014898777008057,
-            50.9286350098509
-          ],
-          [
-            -1.5018010139465332,
-            50.92891902370787
-          ],
-          [
-            -1.5037858486175537,
-            50.93039316301008
-          ],
-          [
-            -1.5045905113220215,
-            50.93095440560209
-          ],
-          [
-            -1.5062642097473145,
-            50.93169144883986
-          ],
-          [
-            -1.508345603942871,
-            50.93263133107079
-          ],
-          [
-            -1.5087747573852537,
-            50.93271247109218
-          ],
-          [
-            -1.5092039108276367,
-            50.93263133107079
-          ],
-          [
-            -1.509472131729126,
-            50.93248933569274
-          ],
-          [
-            -1.5095901489257812,
-            50.9321715349424
-          ],
-          [
-            -1.5096223354339597,
-            50.93190106450821
-          ],
-          [
-            -1.509793996810913,
-            50.93180639948464
-          ],
-          [
-            -1.509793996810913,
-            50.93155621242345
-          ],
-          [
-            -1.5099120140075684,
-            50.930508116863535
-          ],
-          [
-            -1.510148048400879,
-            50.929676385515116
-          ],
-          [
-            -1.5101265907287598,
-            50.92943971127504
-          ],
-          [
-            -1.5100407600402832,
-            50.92891226149334
-          ],
-          [
-            -1.510169506072998,
-            50.928357756555926
-          ],
-          [
-            -1.511017084121704,
-            50.926626576658535
-          ],
-          [
-            -1.51161789894104,
-            50.92520642004656
-          ],
-          [
-            -1.5119719505310059,
-            50.92447603690724
-          ],
-          [
-            -1.5123581886291504,
-            50.924164944310185
-          ],
-          [
-            -1.5125513076782224,
-            50.92404321185811
-          ],
-          [
-            -1.512991189956665,
-            50.92390795320447
-          ]
-        ]
-      }
-    }
-  ]
+function zoom(e) {
+    if (zoommap._loaded) zoommap.setZoom(e.target.getZoom() + 0);
 }
 
+function update(e) {
+    zl.style.top = ~~e.containerPoint.y - 100 + 'px';
+    zl.style.left = ~~e.containerPoint.x - 100 + 'px';
+    zoommap.setView(e.latlng, map.getZoom() + 0, true);
+}
+</script>
 
-L.geoJson(data).addTo(map);
 
-    </script>
-  </body>
+</body>
 </html>
