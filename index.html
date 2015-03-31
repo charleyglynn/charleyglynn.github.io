@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Zoom lens</title>
+<title>Outdoors vs Dark</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
@@ -15,81 +15,39 @@
 
 
 <style>
-#map {
-  pointer-events:all;
-  cursor:none
-  }
-#zoommap {
-  background:#73b5e5;
-  width:200px;
-  height:200px;
-  overflow:hidden;
-  -webkit-transform:rotate(-60deg);
-     -moz-transform:rotate(-60deg);
-      -ms-transform:rotate(-60deg);
-       -o-transform:rotate(-60deg);
-          transform:rotate(-60deg);
-  }
-#zoomlens {
-  overflow:visible;
-  top:-9999px;
-  left:-9999px;
-  }
-#border {
-  border:5px solid #404040;
-  border-radius:50%;
-  box-shadow:0 0 10px rgba(0,0,0,0.25);
-  }
-.overlay {
+.range {
   position:absolute;
-  pointer-events:none;
-  overflow:hidden;
-  width:200px;
-  height:200px;
-  z-index:1000;
+  width:100%;
   }
-.rotater {
-  -webkit-transform:rotate(30deg);
-     -moz-transform:rotate(30deg);
-      -ms-transform:rotate(30deg);
-       -o-transform:rotate(30deg);
-          transform:rotate(30deg);
+.leaflet-top .leaflet-control-zoom {
+  top:20px;
   }
 </style>
+
 <div id='map'></div>
-<div id='zoomlens' class='overlay'>
-    <div class='overlay rotater'>
-        <div class='overlay rotater'>
-            <div id='zoommap' class='overlay'></div>
-        </div>
-    </div>
-    <div id='border' class='overlay'></div>
-</div>
+<input id='range' class='range' type='range' min='0' max='1.0' step='any' />
+
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoidHJ1ZXRvZmZlZSIsImEiOiJPU2NGeVpNIn0.ZJjeKACNei3rl6k9KLzJlA';
-var map = L.mapbox.map('map', 'truetoffee.846aa8f0');
-var zoommap = L.mapbox.map('zoommap', 'truetoffee.de04cb53', {
-    fadeAnimation: false,
-    zoomControl: false,
-    attributionControl: false
-});
+var map = L.mapbox.map('map');
+L.mapbox.tileLayer('truetoffee.846aa8f0').addTo(map);
 
-var zl = document.getElementById('zoomlens');
+var overlay = L.mapbox.tileLayer('truetoffee.de04cb53').addTo(map);
+var range = document.getElementById('range');
 
-// Call update or zoom functions when
-// these events occur.
-map.on('mousemove', update);
-map.on('zoomend', zoom);
+function clip() {
+  var nw = map.containerPointToLayerPoint([0, 0]),
+      se = map.containerPointToLayerPoint(map.getSize()),
+      clipX = nw.x + (se.x - nw.x) * range.value;
 
-function zoom(e) {
-    if (zoommap._loaded) zoommap.setZoom(e.target.getZoom() + 0);
+  overlay.getContainer().style.clip = 'rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
 }
 
-function update(e) {
-    zl.style.top = ~~e.containerPoint.y - 100 + 'px';
-    zl.style.left = ~~e.containerPoint.x - 100 + 'px';
-    zoommap.setView(e.latlng, map.getZoom() + 0, true);
-}
+range['oninput' in range ? 'oninput' : 'onchange'] = clip;
+map.on('move', clip);
+map.setView([53.7065,-1.2785], 10);
+
+clip();
 </script>
 
 
