@@ -1,0 +1,63 @@
+#map {
+  height: 180%;
+}
+.pin-bottom {
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.fade {
+  background: rgba(145,232,66,0.69);
+  background: -moz-linear-gradient(top, rgba(145,232,66,0.69) 0%, rgba(210,255,82,0) 53%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(145,232,66,0.69)), color-stop(53%, rgba(210,255,82,0)));
+background: -webkit-linear-gradient(top, rgba(145,232,66,0.69) 0%, rgba(210,255,82,0) 53%);
+background: -o-linear-gradient(top, rgba(145,232,66,0.69) 0%, rgba(210,255,82,0) 53%);
+background: -ms-linear-gradient(top, rgba(145,232,66,0.69) 0%, rgba(210,255,82,0) 53%);
+background: linear-gradient(to bottom, rgba(145,232,66,0.69) 0%, rgba(210,255,82,0) 53%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91e842', endColorstr='#d2ff52', GradientType=0 );
+    opacity: .75;
+    pointer-events: none;
+}
+.pin-left {
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.pin-top {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.pin-top, .pin-right, .pin-bottom, .pin-left, .pin-topleft, .pin-topright, .pin-bottomleft, .pin-bottomright {
+    position: absolute;
+}
+
+.player-container {
+    width: 125px;
+    height: 170px;
+    margin: auto;
+    bottom: 10px;
+}
+
+.player-wrapper {
+    position: absolute;
+    height: 170px;
+    width: 125px;
+    
+}
+
+.player-shadow {
+
+    position: absolute;
+    width: 140px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: .5;
+    top: 109px;
+    left: -7px;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+
+}
