@@ -4,10 +4,8 @@
     <meta charset='utf-8' />
     <title></title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css' rel='stylesheet' />
-    <link href='style/default.css' rel='stylesheet' />
-    
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -15,29 +13,52 @@
 </head>
 <body>
 
-<div id='map'></div>
+<style>
+body {
+    overflow: hidden;
+}
+
+body * {
+   -webkit-touch-callout: none;
+     -webkit-user-select: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.1.0/mapbox-gl-compare.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.1.0/mapbox-gl-compare.css' type='text/css' />
+
+<div id='before' class='map'></div>
+<div id='after' class='map'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoid29ya3Nob3BzIiwiYSI6IjByNUpsazQifQ.126uDznXPUzRUim03Lh0FA';
-var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/workshops/cirxfdt770031gunit6irxzv6', //stylesheet location
-    center: [-2.12, 51.91], // starting position
-    pitch: 60, // pitch in degrees
-    bearing: 100.37, // bearing in degrees
-    zoom: 15 // starting zoom
+var beforeMap = new mapboxgl.Map({
+    container: 'before',
+    style: 'mapbox://styles/workshops/cj2kdjgos001c2rt7oqqousq2',
+    center: [0, 0],
+    zoom: 0
+});
+
+var afterMap = new mapboxgl.Map({
+    container: 'after',
+    style: 'mapbox://styles/workshops/cj2kjjz2j00202soevyrurrx8',
+    center: [0, 0],
+    zoom: 0
+});
+
+var map = new mapboxgl.Compare(beforeMap, afterMap, {
+    // Set this to enable comparing two maps by mouse movement:
+    // mousemove: true
 });
 </script>
 
-    
-<div class="pin-top pin-left fade"></div>
-    
-<div class="player-container pin-bottom">
-    <div class="player-shadow"></div>
-    <div class="player-wrapper">
-        <img src="img/player.gif" width="128" height="128" />
-    </div>
-    
-</div>
-    
 </body>
 </html>
