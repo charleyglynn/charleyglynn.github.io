@@ -21,7 +21,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2l0eXZlcnZlIiwiYSI6ImNqNzYxN3BrNzByOGEzM3RjY
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/cityverve/cje07ikql4kjy2sqia9k17fdp',
-    zoom: 14
+    zoom: 16
 });
 
 map.on('load', function () {
@@ -52,8 +52,9 @@ map.on('load', function () {
         });
 
         // setup the viewport
-        map.jumpTo({ 'center': coordinates[0], 'zoom': 14 });
+        map.jumpTo({ 'center': coordinates[0], 'zoom': 16.1 });
         map.setPitch(60);
+        map.setBearing(-24);
 
         // on a regular basis, add more coordinates from the saved list and update the map
         var i = 0;
