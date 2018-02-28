@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title></title>
+    <title>Swipe between maps</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -39,17 +39,17 @@ body * {
 <div id='before' class='map'></div>
 <div id='after' class='map'></div>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1Ijoid29ya3Nob3BzIiwiYSI6IjByNUpsazQifQ.126uDznXPUzRUim03Lh0FA';
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2l0eXZlcnZlIiwiYSI6ImNqNzYxN3BrNzByOGEzM3RjYmVnZzNoc2IifQ.u30u28F3OdCRs2__V6hLYw';
 var beforeMap = new mapboxgl.Map({
     container: 'before',
-    style: 'mapbox://styles/workshops/cj2kdjgos001c2rt7oqqousq2',
+    style: 'mapbox://styles/cityverve/cj7afdsjn93af2smnes4wb51r',
     center: [0, 0],
     zoom: 0
 });
 
 var afterMap = new mapboxgl.Map({
     container: 'after',
-    style: 'mapbox://styles/workshops/cj3x1f93702ve2skwt58j1cfq',
+    style: 'mapbox://styles/cityverve/cje07ikql4kjy2sqia9k17fdp',
     center: [0, 0],
     zoom: 0
 });
