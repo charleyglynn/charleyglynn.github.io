@@ -28,7 +28,7 @@ map.on('load', function () {
     // We use D3 to fetch the JSON here so that we can parse and use it separately
     // from GL JS's use in the added source. You can use any request method (library
     // or otherwise) that you want.
-    d3.json('https://gist.githubusercontent.com/charleyglynn/168f3b61f8da3cf7ad957c2ee06eab29/raw/7762f389f37958d061627c66f94ef8b3f89128a2/hike-test.geojson', function(err, data) {
+    d3.json('https://gist.githubusercontent.com/charleyglynn/e7ccc782b2cf4382fe417dd0a7d869a8/raw/580c4dd591d7be525a51927ae78abd711ca827a1/snowdon.geojson', function(err, data) {
         if (err) throw err;
 
         // save full coordinate list for later
@@ -45,8 +45,11 @@ map.on('load', function () {
             "source": "trace",
             "paint": {
                 "line-color": "yellow",
-                "line-opacity": 0.75,
-                "line-width": 5
+                "line-opacity": 0.8,
+                "line-width": 6,
+                "line-join": "round",
+                "line-cap": "round"
+                
             }
         });
 
