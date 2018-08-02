@@ -44,18 +44,14 @@ var beforeMap = new mapboxgl.Map({
     container: 'before',
     style: 'https://s3-eu-west-1.amazonaws.com/tiles.os.uk/styles/open-zoomstack-outdoor/style.json',
     center: [-1.417954, 50.905996],
-    zoom: 13.76,
-    bearing: -24.80,
-    pitch: 60.00
+    zoom: 13.01
 });
 
 var afterMap = new mapboxgl.Map({
     container: 'after',
     style: 'https://s3-eu-west-1.amazonaws.com/tiles.os.uk/styles/open-zoomstack-night/style.json',
     center: [-1.417954, 50.905996],
-    zoom: 13.76,
-    bearing: -24.80,
-    pitch: 60.00
+    zoom: 13.01
 });
 
 var map = new mapboxgl.Compare(beforeMap, afterMap, {
