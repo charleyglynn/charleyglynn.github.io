@@ -29,21 +29,12 @@ var map = new mapboxgl.Map({
 map.on('load', function () {
     map.addSource('dem', {
         "type": "raster-dem",
-        "tiles": [ "mapbox://ordnancesurvey.1awrzqfq" ],
-        "tileSize": 512,
-        "maxzoom": 9
+        "url": "mapbox://ordnancesurvey.1awrzqfq"
     });
     map.addLayer({
         "id": "hillshading",
         "source": "dem",
-        "type": "hillshade",
-        "paint": {
-            "hillshade-illumination-direction": 335,
-            "hillshade-shadow-color": "#5a008a",
-            "hillshade-highlight-color": "#fff024",
-            "hillshade-exaggeration": 1,
-            "hillshade-accent-color": "#668aff"
-        }
+        "type": "hillshade"
     }, "waterlines");
 });
 </script>
