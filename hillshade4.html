@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Add hillshading</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoib3JkbmFuY2VzdXJ2ZXkiLCJhIjoicmR0dXZkQSJ9.aERX_Ol_wRfwgC2Onl9__g';
+var map = new mapboxgl.Map({
+    container: 'map',
+    minZoom: 5,
+    maxZoom: 10.99,
+    maxBounds: [ [ -8.74, 49.84 ], [ 1.96, 60.9 ] ],
+    style: 'https://s3-eu-west-1.amazonaws.com/tiles.os.uk/styles/open-zoomstack-light/style.json',
+    center: [ -4.076, 53.069 ],
+    zoom: 10,
+    hash: true
+});
+map.on('load', function () {
+    map.addSource('dem', {
+        "type": "raster-dem",
+        "tiles": ['https://a.tiles.mapbox.com/v4/ordnancesurvey.1awrzqfq/{z}/{x}/{y}@2x.pngraw?access_token=pk.eyJ1Ijoib3JkbmFuY2VzdXJ2ZXkiLCJhIjoicmR0dXZkQSJ9.aERX_Ol_wRfwgC2Onl9__g']
+    });
+    
+    map.addLayer({
+        "id": "hillshading",
+        "source": "dem",
+        "type": "hillshade",
+        "paint": {
+            "hillshade-illumination-direction": 335,
+            "hillshade-shadow-color": "#5a008a",
+            "hillshade-highlight-color": "#fff024",
+            "hillshade-exaggeration": 1,
+            "hillshade-accent-color": "#668aff"
+         }
+    }, "waterlines");
+});
+</script>
+
+</body>
+</html>
