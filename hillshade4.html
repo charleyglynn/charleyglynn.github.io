@@ -29,7 +29,8 @@ var map = new mapboxgl.Map({
 map.on('load', function () {
     map.addSource('dem', {
         "type": "raster-dem",
-        "tiles": ['https://a.tiles.mapbox.com/v4/ordnancesurvey.1awrzqfq/{z}/{x}/{y}@2x.pngraw?access_token=pk.eyJ1Ijoib3JkbmFuY2VzdXJ2ZXkiLCJhIjoicmR0dXZkQSJ9.aERX_Ol_wRfwgC2Onl9__g']
+        "tiles": ['https://a.tiles.mapbox.com/v4/ordnancesurvey.1awrzqfq/{z}/{x}/{y}@2x.pngraw?access_token=pk.eyJ1Ijoib3JkbmFuY2VzdXJ2ZXkiLCJhIjoicmR0dXZkQSJ9.aERX_Ol_wRfwgC2Onl9__g'],
+        "maxzoom": 9
     });
     
     map.addLayer({
