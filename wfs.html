@@ -67,12 +67,12 @@
         }
     });
 
-    map.dragRotate.disable(); // Disable map rotation using right click + drag.
-    map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
+    // map.dragRotate.disable(); // Disable map rotation using right click + drag.
+    // map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
 
     // Add navigation control (excluding compass button) to the map.
     map.addControl(new mapboxgl.NavigationControl({
-        showCompass: false
+        // showCompass: false
     }));
 
     // Add attribution control to the map.
