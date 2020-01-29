@@ -1632,8 +1632,8 @@
       },
       "paint": {
         "icon-color": "rgba(240,240,240,0)",
-        "text-color": "#000000",
-        "text-halo-color": "#F3F3F3",
+        "text-color": "#FFC0CB",
+        "text-halo-color": "#ffffff",
         "text-halo-width": 1.51181
       }
     },
