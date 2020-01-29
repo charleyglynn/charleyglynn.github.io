@@ -57,7 +57,7 @@
         container: 'map',
         style: serviceUrl + '/resources/styles',
         center: [ -0.126, 51.502 ],
-        zoom: 14,
+        zoom: 15,
         transformRequest: function(url) {
             url += '?key=' + apiKey + '&srs=3857';
             return {
@@ -66,12 +66,9 @@
         }
     });
 
-    map.dragRotate.disable(); // Disable map rotation using right click + drag.
-    map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
-
-    // Add navigation control (excluding compass button) to the map.
+    // Add navigation control to the map.
     map.addControl(new mapboxgl.NavigationControl({
-        showCompass: false
+        showCompass: true
     }));
 
     // Add attribution control to the map.
