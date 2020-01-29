@@ -57,7 +57,7 @@
         container: 'map',
         style: serviceUrl + '/resources/styles',
         center: [ -0.126, 51.502 ],
-        zoom: 13,
+        zoom: 14,
         transformRequest: function(url) {
             url += '?key=' + apiKey + '&srs=3857';
             return {
@@ -134,7 +134,7 @@
 
         // {Turf.js} Takes the centre point coordinates and calculates a circular polygon
         // of the given a radius in kilometers; and steps for precision.
-        var circle = turf.circle(center, 1, { steps: 24, units: 'kilometers' });
+        var circle = turf.circle(center, 0.25, { steps: 24, units: 'kilometers' });
 
         // Set the GeoJSON data for the 'circle' layer and re-render the map.
         map.getSource('circle').setData(circle);
