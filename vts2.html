@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OS Vector Tile API | Basic Map (EPSG:3857) | Mapbox GL JS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.css" />
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css" />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js"></script>
+<script>
+
+    var apiKey = 'qgNKfq8dfNdrIFRoJBvLnv5blAqM28Z6';
+
+    var serviceUrl = 'https://ordnance-omse-dev-dev.apigee.net/OSVectorTileAPI/vts/v1';
+
+    // Initialize the map object.
+    map = new mapboxgl.Map({
+        container: 'map',
+        style: serviceUrl + '/resources/styles',
+
+        // minZoom: 6,
+        // maxBounds: [
+        //     [ -10.76418, 49.528423 ],
+        //     [ 1.9134116, 61.331151 ]
+        // ],
+
+        center: [ -2.968, 54.425 ],
+        zoom: 13,
+        transformRequest: url => {
+            url += '?key=' + apiKey + '&srs=3857';
+            return {
+                url: url
+            }
+        }
+    });
+
+    map.dragRotate.disable(); // Disable map rotation using right click + drag.
+    map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
+
+    // Add navigation control (excluding compass button) to the map.
+    map.addControl(new mapboxgl.NavigationControl({
+        showCompass: false
+    }));
+
+</script>
+
+</body>
+</html>
