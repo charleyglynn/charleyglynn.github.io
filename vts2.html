@@ -35,13 +35,13 @@
         // ],
 
         center: [ -2.968, 54.425 ],
-        zoom: 13,
-        transformRequest: url => {
-            url += '?key=' + apiKey + '&srs=3857';
-            return {
-                url: url
-            }
-        }
+        zoom: 13
+        //transformRequest: url => {
+            //url += '?key=' + apiKey + '&srs=3857';
+            //return {
+                //url: url
+            //}
+        //}
     });
 
     map.dragRotate.disable(); // Disable map rotation using right click + drag.
