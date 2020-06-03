@@ -3598,7 +3598,9 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name79}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
+     
       },
       "paint": {"text-color": "#655314"}
     },
@@ -3617,7 +3619,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name64}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#857660"}
     },
@@ -3636,7 +3639,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name74}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -3656,7 +3660,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name97}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3675,7 +3680,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name87}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3694,7 +3700,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name72}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -3713,7 +3720,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name73}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -3732,7 +3740,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name61}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#857660"}
     },
@@ -3752,7 +3761,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name99}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3772,7 +3782,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name96}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3792,7 +3803,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name95}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3811,7 +3823,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name89}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3830,7 +3843,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name86}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3849,7 +3863,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name85}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3868,7 +3883,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name76}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -3887,7 +3903,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name66}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#857660"}
     },
@@ -3908,7 +3925,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name53}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#318FAE"}
     },
@@ -3928,7 +3946,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name54}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#318FAE"}
     },
@@ -3948,7 +3967,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name100}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3967,7 +3987,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name90}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -3986,7 +4007,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name77}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -4005,7 +4027,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name67}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#857660"}
     },
@@ -4025,7 +4048,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name55}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#318FAE"}
     },
@@ -4044,7 +4068,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name78}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -4063,7 +4088,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name68}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#857660"}
     },
@@ -4083,7 +4109,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name56}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#318FAE"}
     },
@@ -4103,7 +4130,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name101}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -4122,7 +4150,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name91}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -4142,7 +4171,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name69}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -4162,7 +4192,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name57}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#318FAE"}
     },
@@ -4183,7 +4214,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name92}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#5C5C5C"}
     },
@@ -5267,7 +5299,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name10}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5287,7 +5320,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5307,7 +5341,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name17}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5326,7 +5361,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name7}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5346,7 +5382,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name19}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5365,7 +5402,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name9}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5385,7 +5423,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name18}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5404,7 +5443,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name8}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5424,7 +5464,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name16}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5443,7 +5484,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name6}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5463,7 +5505,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name15}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5482,7 +5525,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name5}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5502,7 +5546,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name14}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5521,7 +5566,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name4}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5542,7 +5588,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name13}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
@@ -5562,7 +5609,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name3}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {"text-color": "#655314"}
     },
