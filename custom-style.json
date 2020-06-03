@@ -1,14 +1,13 @@
 {
   "version": 8,
-  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sprite": "https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1/resources/sprites/sprite?key=asqMFGj4Kjr76hLWPD2JI69BqQTmAATs",
+  "glyphs": "https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1/resources/fonts/{fontstack}/{range}.pbf?key=asqMFGj4Kjr76hLWPD2JI69BqQTmAATs",
   "sources": {
     "esri": {
       "type": "vector",
-      "url": "https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1"
+      "url": "https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1?key=asqMFGj4Kjr76hLWPD2JI69BqQTmAATs"
     }
   },
-  "sprite": "https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1/resources/sprites/sprite",
-  "glyphs": "https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1/resources/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -7042,6 +7041,5 @@
         "text-halo-width": 1.51187
       }
     }
-  ],
-  "id": "htbq1fndm"
+  ]
 }
