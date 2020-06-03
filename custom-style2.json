@@ -10155,7 +10155,8 @@
         "text-anchor": "center",
         "text-letter-spacing": 0.05,
         "text-field": "{_name}",
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {
         "icon-color": "rgba(0,0,0,0)",
