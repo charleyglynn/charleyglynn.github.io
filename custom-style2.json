@@ -9860,7 +9860,8 @@
         "text-letter-spacing": 0.05,
         "text-field": "{_name15}",
         "text-allow-overlap": true,
-        "text-optional": true
+        "text-optional": true,
+        "text-rotation-alignment": "map"
       },
       "paint": {
         "text-color": "#655314"
