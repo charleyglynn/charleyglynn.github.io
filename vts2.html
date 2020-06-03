@@ -1,58 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>OS Vector Tile API | Basic Map (EPSG:3857) | Mapbox GL JS</title>
+  <head>
+    <title>OS Vector Tile API | Example Custom Style | ArcGIS API for JavaScript</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.css" />
-    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css" />
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css">
     <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .esri-view .esri-view-surface--inset-outline:focus::after {
+        outline: 0 !important;
+      }
+      .esri-ui .esri-attribution {
+        display: none;
+      }
     </style>
-</head>
-<body>
 
-<div id="map"></div>
+    <script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js" data-div="viewDiv" data-prefix="Powered by Esri"></script>
+    <script src="https://js.arcgis.com/4.14/"></script>
+    <script>
 
-<script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js"></script>
-<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js"></script>
-<script>
+        var apiKey = 'asqMFGj4Kjr76hLWPD2JI69BqQTmAATs';
 
-    var apiKey = 'qgNKfq8dfNdrIFRoJBvLnv5blAqM28Z6';
+        var serviceUrl = 'https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1';
 
-    var serviceUrl = 'https://ordnance-omse-dev-dev.apigee.net/OSVectorTileAPI/vts/v1';
+        var customStyleJson = 'https://labs.os.uk/public/os-data-hub-examples/dist/os-vector-tile-api/styles/greyscale.json';
 
-    // Initialize the map object.
-    map = new mapboxgl.Map({
-        container: 'map',
-        style: serviceUrl + '/resources/styles',
+        var map, view;
 
-        // minZoom: 6,
-        // maxBounds: [
-        //     [ -10.76418, 49.528423 ],
-        //     [ 1.9134116, 61.331151 ]
-        // ],
+        require([
+            "esri/Map",
+            "esri/views/MapView",
+            "esri/layers/VectorTileLayer",
+            "esri/config",
+            "dojo/domReady!"
+        ], function(Map, MapView, VectorTileLayer, esriConfig) {
+            // Add the 'key' and 'srs' options to the request URL before it is sent.
+            esriConfig.request.interceptors.push({
+                urls: serviceUrl,
+                before: function(params) {
+                    if(! params.requestOptions.query ) {
+                        params.requestOptions.query = {};
+                    }
+                    params.requestOptions.query.key = apiKey;
+                    params.requestOptions.query.srs = 3857;
+                }
+            });
 
-        center: [ -2.968, 54.425 ],
-        zoom: 13
-        //transformRequest: url => {
-            //url += '?key=' + apiKey + '&srs=3857';
-            //return {
-                //url: url
-            //}
-        //}
-    });
+            var tileLayer = new VectorTileLayer({
+                url: customStyleJson
+            });
 
-    map.dragRotate.disable(); // Disable map rotation using right click + drag.
-    map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
+            map = new Map({
+                layers: [ tileLayer ]
+            });
 
-    // Add navigation control (excluding compass button) to the map.
-    map.addControl(new mapboxgl.NavigationControl({
-        showCompass: false
-    }));
+            view = new MapView({
+                container: "viewDiv",
+                map: map,
+                zoom: 13,
+                center: [ -2.968, 54.425 ],
+                constraints: {
+                    minZoom: 6,
+                    maxZoom: 19,
+                    rotationEnabled: true
+                }
+            });
+        });
 
-</script>
-
-</body>
+    </script>
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
 </html>
