@@ -9609,10 +9609,10 @@
         ],
         "text-size": 11.3333,
         "text-anchor": "bottom",
-        "text-rotate": [
-          "get",
-          "_label_angle17"
-        ],
+        "text-rotate": {
+          "property": "_label_angle17",
+          "default": 0
+        }, 
         "text-letter-spacing": 0.05,
         "text-field": "{_name17}",
         "text-allow-overlap": true,
@@ -9639,10 +9639,10 @@
         ],
         "text-size": 12.9333,
         "text-anchor": "bottom",
-        "text-rotate": [
-          "get",
-          "_label_angle7"
-        ],
+        "text-rotate": {
+          "property": "_label_angle7",
+          "default": 0
+        }, 
         "text-letter-spacing": 0.05,
         "text-field": "{_name7}",
         "text-allow-overlap": true,
