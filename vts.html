@@ -1,45 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>OS Vector Tile API | Example Custom Style | Mapbox GL JS</title>
+  <head>
+    <title>OS Vector Tile API | Example Custom Style | ArcGIS API for JavaScript</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.css" />
-    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css" />
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css">
     <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .esri-view .esri-view-surface--inset-outline:focus::after {
+        outline: 0 !important;
+      }
+      .esri-ui .esri-attribution {
+        display: none;
+      }
     </style>
-</head>
-<body>
 
-<div id="map"></div>
+    <script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js" data-div="viewDiv" data-prefix="Powered by Esri"></script>
+    <script src="https://js.arcgis.com/4.14/"></script>
+    <script>
 
-<script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js"></script>
-<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js"></script>
-<script>
+        var apiKey = 'INSERT_API_KEY_HERE';
 
-    var apiKey = 'asqMFGj4Kjr76hLWPD2JI69BqQTmAATs';
+        var serviceUrl = 'https://api.os.uk/maps/vector/v1/vts';
 
-    var customStyleJson = 'https://raw.githubusercontent.com/charleyglynn/charleyglynn.github.io/master/custom-style2.json';
+        var customStyleJson = 'https://raw.githubusercontent.com/charleyglynn/charleyglynn.github.io/master/custom-style.json';
 
-    // Initialize the map object.
-    map = new mapboxgl.Map({
-        container: 'map',
-        minZoom: 6,
-        maxZoom: 19,
-        style: customStyleJson,
-        center: [ -2.968, 54.425 ],
-        zoom: 13,
-        transformRequest: url => {
-            if(! /[?&]key=/.test(url) ) url += '?key=' + apiKey
-            return {
-                url: url + '&srs=3857'
-            }
-        }
-    });
+        var map, view;
 
-</script>
+        require([
+            "esri/Map",
+            "esri/views/MapView",
+            "esri/layers/VectorTileLayer",
+            "esri/config",
+            "dojo/domReady!"
+        ], function(Map, MapView, VectorTileLayer, esriConfig) {
+            // Add the 'key' and 'srs' options to the request URL before it is sent.
+            esriConfig.request.interceptors.push({
+                urls: serviceUrl,
+                before: function(params) {
+                    if(! params.requestOptions.query ) {
+                        params.requestOptions.query = {};
+                    }
+                    params.requestOptions.query.key = apiKey;
+                    params.requestOptions.query.srs = 3857;
+                }
+            });
 
-</body>
+            var tileLayer = new VectorTileLayer({
+                url: customStyleJson
+            });
+
+            map = new Map({
+                layers: [ tileLayer ]
+            });
+
+            view = new MapView({
+                container: "viewDiv",
+                map: map,
+                zoom: 13,
+                center: [ -2.968, 54.425 ],
+                constraints: {
+                    minZoom: 6,
+                    maxZoom: 19,
+                    rotationEnabled: false
+                  }
+            });
+        });
+
+    </script>
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
 </html>
