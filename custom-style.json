@@ -33,7 +33,7 @@
          "type":"fill",
          "source":"esri",
          "source-layer":"European_land",
-         "maxzoom":11,
+         "maxzoom":15,
          "layout":{
 
          },
@@ -58,8 +58,8 @@
          "type":"fill",
          "source":"esri",
          "source-layer":"National_parks",
-         "minzoom":1,
-         "maxzoom":7,
+         "minzoom":5,
+         "maxzoom":11,
          "layout":{
 
          },
@@ -78,8 +78,8 @@
             "_symbol",
             0
          ],
-         "minzoom":1,
-         "maxzoom":5,
+         "minzoom":5,
+         "maxzoom":9,
          "layout":{
 
          },
@@ -97,8 +97,8 @@
             "_symbol",
             1
          ],
-         "minzoom":5,
-         "maxzoom":6,
+         "minzoom":9,
+         "maxzoom":10,
          "layout":{
 
          },
@@ -116,8 +116,8 @@
             "_symbol",
             0
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -136,8 +136,8 @@
             "_symbol",
             1
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -156,8 +156,8 @@
             "_symbol",
             2
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -176,8 +176,8 @@
             "_symbol",
             3
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -196,8 +196,8 @@
             "_symbol",
             4
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -211,8 +211,8 @@
          "type":"fill",
          "source":"esri",
          "source-layer":"Greenspace:2",
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -225,8 +225,8 @@
          "type":"line",
          "source":"esri",
          "source-layer":"Greenspace:2",
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -236,31 +236,31 @@
             "line-width":{
                "stops":[
                   [
-                     6,
-                     0
-                  ],
-                  [
-                     7,
-                     0
-                  ],
-                  [
-                     8,
-                     0
-                  ],
-                  [
-                     9,
-                     0
-                  ],
-                  [
                      10,
-                     0.1
+                     0
                   ],
                   [
                      11,
-                     0.15
+                     0
                   ],
                   [
                      12,
+                     0
+                  ],
+                  [
+                     13,
+                     0
+                  ],
+                  [
+                     14,
+                     0.1
+                  ],
+                  [
+                     15,
+                     0.15
+                  ],
+                  [
+                     16,
                      0.25
                   ]
                ]
@@ -277,7 +277,7 @@
             "_symbol",
             48
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -295,7 +295,7 @@
             "_symbol",
             47
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -313,7 +313,7 @@
             "_symbol",
             46
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -331,7 +331,7 @@
             "_symbol",
             45
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -349,7 +349,7 @@
             "_symbol",
             44
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -367,7 +367,7 @@
             "_symbol",
             42
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -385,7 +385,7 @@
             "_symbol",
             43
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -403,7 +403,7 @@
             "_symbol",
             41
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -421,7 +421,7 @@
             "_symbol",
             40
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -439,7 +439,7 @@
             "_symbol",
             39
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -457,7 +457,7 @@
             "_symbol",
             38
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -475,7 +475,7 @@
             "_symbol",
             37
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -493,7 +493,7 @@
             "_symbol",
             36
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -511,7 +511,7 @@
             "_symbol",
             34
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -529,7 +529,7 @@
             "_symbol",
             35
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -547,7 +547,7 @@
             "_symbol",
             30
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -565,12 +565,66 @@
             "_symbol",
             29
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
          "paint":{
             "fill-color":"#A9DDEF"
+         }
+      },
+      {
+         "id":"OS/TopographicArea_1/Reeds/3",
+         "type":"fill",
+         "source":"esri",
+         "source-layer":"TopographicArea_1",
+         "filter":[
+            "==",
+            "_symbol",
+            29
+         ],
+         "minzoom":16,
+         "layout":{
+
+         },
+         "paint":{
+            "fill-pattern":"OS/TopographicArea_1/Reeds/3"
+         }
+      },
+      {
+         "id":"OS/TopographicArea_1/Reeds/2",
+         "type":"fill",
+         "source":"esri",
+         "source-layer":"TopographicArea_1",
+         "filter":[
+            "==",
+            "_symbol",
+            29
+         ],
+         "minzoom":16,
+         "layout":{
+
+         },
+         "paint":{
+            "fill-pattern":"OS/TopographicArea_1/Reeds/2"
+         }
+      },
+      {
+         "id":"OS/TopographicArea_1/Reeds/1",
+         "type":"fill",
+         "source":"esri",
+         "source-layer":"TopographicArea_1",
+         "filter":[
+            "==",
+            "_symbol",
+            29
+         ],
+         "minzoom":16,
+         "layout":{
+
+         },
+         "paint":{
+            "fill-pattern":"OS/TopographicArea_1/Reeds/1"
          }
       },
       {
@@ -583,7 +637,7 @@
             "_symbol",
             29
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -601,66 +655,12 @@
             "_symbol",
             28
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
          "paint":{
             "fill-color":"#E4F3F4"
-         }
-      },
-      {
-         "id":"OS/TopographicArea_1/Marsh/3",
-         "type":"fill",
-         "source":"esri",
-         "source-layer":"TopographicArea_1",
-         "filter":[
-            "==",
-            "_symbol",
-            28
-         ],
-         "minzoom":11,
-         "layout":{
-
-         },
-         "paint":{
-            "fill-pattern":"OS/TopographicArea_1/Marsh/3"
-         }
-      },
-      {
-         "id":"OS/TopographicArea_1/Marsh/2",
-         "type":"fill",
-         "source":"esri",
-         "source-layer":"TopographicArea_1",
-         "filter":[
-            "==",
-            "_symbol",
-            28
-         ],
-         "minzoom":11,
-         "layout":{
-
-         },
-         "paint":{
-            "fill-pattern":"OS/TopographicArea_1/Marsh/2"
-         }
-      },
-      {
-         "id":"OS/TopographicArea_1/Marsh/1",
-         "type":"fill",
-         "source":"esri",
-         "source-layer":"TopographicArea_1",
-         "filter":[
-            "==",
-            "_symbol",
-            28
-         ],
-         "minzoom":11,
-         "layout":{
-
-         },
-         "paint":{
-            "fill-pattern":"OS/TopographicArea_1/Marsh/1"
          }
       },
       {
@@ -673,7 +673,7 @@
             "_symbol",
             27
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -691,7 +691,7 @@
             "_symbol",
             28
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -709,7 +709,7 @@
             "_symbol",
             26
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -727,7 +727,7 @@
             "_symbol",
             25
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -745,7 +745,7 @@
             "_symbol",
             24
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -763,7 +763,7 @@
             "_symbol",
             23
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -781,7 +781,7 @@
             "_symbol",
             24
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -799,7 +799,7 @@
             "_symbol",
             23
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -817,7 +817,7 @@
             "_symbol",
             22
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -835,7 +835,7 @@
             "_symbol",
             22
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -853,7 +853,7 @@
             "_symbol",
             21
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -871,7 +871,7 @@
             "_symbol",
             21
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -889,7 +889,7 @@
             "_symbol",
             20
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -907,7 +907,7 @@
             "_symbol",
             20
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -925,7 +925,7 @@
             "_symbol",
             19
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -943,7 +943,7 @@
             "_symbol",
             19
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -961,12 +961,66 @@
             "_symbol",
             18
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
          "paint":{
             "fill-color":"#E2EFCE"
+         }
+      },
+      {
+         "id":"OS/TopographicArea_1/Scrub/3",
+         "type":"fill",
+         "source":"esri",
+         "source-layer":"TopographicArea_1",
+         "filter":[
+            "==",
+            "_symbol",
+            18
+         ],
+         "minzoom":16,
+         "layout":{
+
+         },
+         "paint":{
+            "fill-pattern":"OS/TopographicArea_1/Scrub/3"
+         }
+      },
+      {
+         "id":"OS/TopographicArea_1/Scrub/2",
+         "type":"fill",
+         "source":"esri",
+         "source-layer":"TopographicArea_1",
+         "filter":[
+            "==",
+            "_symbol",
+            18
+         ],
+         "minzoom":16,
+         "layout":{
+
+         },
+         "paint":{
+            "fill-pattern":"OS/TopographicArea_1/Scrub/2"
+         }
+      },
+      {
+         "id":"OS/TopographicArea_1/Scrub/1",
+         "type":"fill",
+         "source":"esri",
+         "source-layer":"TopographicArea_1",
+         "filter":[
+            "==",
+            "_symbol",
+            18
+         ],
+         "minzoom":16,
+         "layout":{
+
+         },
+         "paint":{
+            "fill-pattern":"OS/TopographicArea_1/Scrub/1"
          }
       },
       {
@@ -979,7 +1033,7 @@
             "_symbol",
             18
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -997,7 +1051,7 @@
             "_symbol",
             17
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1015,7 +1069,7 @@
             "_symbol",
             17
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1033,7 +1087,7 @@
             "_symbol",
             16
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1051,7 +1105,7 @@
             "_symbol",
             15
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1069,7 +1123,7 @@
             "_symbol",
             16
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1087,7 +1141,7 @@
             "_symbol",
             14
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1105,7 +1159,7 @@
             "_symbol",
             14
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1123,7 +1177,7 @@
             "_symbol",
             13
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1141,7 +1195,7 @@
             "_symbol",
             13
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1159,7 +1213,7 @@
             "_symbol",
             12
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1177,7 +1231,7 @@
             "_symbol",
             11
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1195,7 +1249,7 @@
             "_symbol",
             12
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
 
          },
@@ -1213,7 +1267,7 @@
             "_symbol",
             10
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1231,7 +1285,7 @@
             "_symbol",
             9
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1249,7 +1303,7 @@
             "_symbol",
             8
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1267,7 +1321,7 @@
             "_symbol",
             7
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1285,7 +1339,7 @@
             "_symbol",
             6
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1303,7 +1357,7 @@
             "_symbol",
             5
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1321,7 +1375,7 @@
             "_symbol",
             4
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1339,7 +1393,7 @@
             "_symbol",
             3
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1357,7 +1411,7 @@
             "_symbol",
             2
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1375,7 +1429,7 @@
             "_symbol",
             1
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1393,7 +1447,7 @@
             "_symbol",
             0
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1411,7 +1465,7 @@
             "_symbol",
             32
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1429,7 +1483,7 @@
             "_symbol",
             31
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -1447,8 +1501,8 @@
             "_symbol",
             0
          ],
-         "minzoom":8,
-         "maxzoom":11,
+         "minzoom":12,
+         "maxzoom":15,
          "layout":{
 
          },
@@ -1466,8 +1520,8 @@
             "_symbol",
             1
          ],
-         "minzoom":1,
-         "maxzoom":6,
+         "minzoom":5,
+         "maxzoom":10,
          "layout":{
 
          },
@@ -1485,8 +1539,8 @@
             "_symbol",
             2
          ],
-         "minzoom":6,
-         "maxzoom":8,
+         "minzoom":10,
+         "maxzoom":12,
          "layout":{
 
          },
@@ -1499,8 +1553,8 @@
          "type":"fill",
          "source":"esri",
          "source-layer":"District_buildings",
-         "minzoom":6,
-         "maxzoom":8,
+         "minzoom":10,
+         "maxzoom":12,
          "layout":{
 
          },
@@ -1513,8 +1567,8 @@
          "type":"fill",
          "source":"esri",
          "source-layer":"Local_buildings",
-         "minzoom":8,
-         "maxzoom":11,
+         "minzoom":12,
+         "maxzoom":15,
          "layout":{
 
          },
@@ -1532,8 +1586,8 @@
             "_symbol",
             0
          ],
-         "minzoom":3,
-         "maxzoom":12,
+         "minzoom":7,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -1542,44 +1596,44 @@
             "line-width":{
                "stops":[
                   [
-                     3,
+                     7,
                      0.1
                   ],
                   [
-                     4,
-                     0.15
-                  ],
-                  [
-                     5,
-                     0.4
-                  ],
-                  [
-                     6,
-                     0.4
-                  ],
-                  [
-                     7,
-                     0.5
-                  ],
-                  [
                      8,
-                     0.6
+                     0.13
                   ],
                   [
                      9,
-                     0.8
+                     0.4
                   ],
                   [
                      10,
-                     1
+                     0.4
                   ],
                   [
                      11,
-                     1
+                     0.53
                   ],
                   [
                      12,
-                     1.2
+                     0.67
+                  ],
+                  [
+                     13,
+                     0.8
+                  ],
+                  [
+                     14,
+                     1
+                  ],
+                  [
+                     15,
+                     1
+                  ],
+                  [
+                     16,
+                     1.1
                   ]
                ]
             },
@@ -1596,8 +1650,8 @@
             "_symbol",
             1
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -1607,23 +1661,23 @@
             "line-width":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.4
                   ],
                   [
-                     9,
+                     13,
                      0.4
                   ],
                   [
-                     10,
+                     14,
                      0.5
                   ],
                   [
-                     11,
-                     0.6
+                     15,
+                     0.5
                   ],
                   [
-                     12,
+                     16,
                      0.7
                   ]
                ]
@@ -1641,8 +1695,8 @@
             "_symbol",
             0
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1661,8 +1715,8 @@
             "_symbol",
             1
          ],
-         "minzoom":2,
-         "maxzoom":3,
+         "minzoom":6,
+         "maxzoom":7,
          "layout":{
 
          },
@@ -1680,8 +1734,8 @@
             "_symbol",
             2
          ],
-         "minzoom":3,
-         "maxzoom":7,
+         "minzoom":7,
+         "maxzoom":11,
          "layout":{
 
          },
@@ -1694,8 +1748,8 @@
          "type":"fill",
          "source":"esri",
          "source-layer":"Foreshore",
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1708,8 +1762,8 @@
          "type":"fill",
          "source":"esri",
          "source-layer":"Ornament",
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1727,8 +1781,8 @@
             "_symbol",
             6
          ],
-         "minzoom":11,
-         "maxzoom":12,
+         "minzoom":15,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1746,8 +1800,8 @@
             "_symbol",
             5
          ],
-         "minzoom":11,
-         "maxzoom":12,
+         "minzoom":15,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1765,8 +1819,8 @@
             "_symbol",
             4
          ],
-         "minzoom":11,
-         "maxzoom":12,
+         "minzoom":15,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1784,8 +1838,8 @@
             "_symbol",
             3
          ],
-         "minzoom":11,
-         "maxzoom":12,
+         "minzoom":15,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1803,8 +1857,8 @@
             "_symbol",
             2
          ],
-         "minzoom":11,
-         "maxzoom":12,
+         "minzoom":15,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1822,8 +1876,8 @@
             "_symbol",
             1
          ],
-         "minzoom":11,
-         "maxzoom":12,
+         "minzoom":15,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1841,8 +1895,8 @@
             "_symbol",
             0
          ],
-         "minzoom":11,
-         "maxzoom":12,
+         "minzoom":15,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -1860,7 +1914,7 @@
             "_symbol",
             0
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -1873,15 +1927,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -1898,7 +1952,7 @@
             "_symbol",
             1
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -1907,20 +1961,20 @@
             "line-width":{
                "stops":[
                   [
-                     2,
+                     6,
                      0.4
                   ],
                   [
-                     13,
+                     17,
                      0.4
                   ],
                   [
-                     14,
+                     18,
                      0.8
                   ],
                   [
-                     15,
-                     1.2
+                     19,
+                     1.3
                   ]
                ]
             }
@@ -1936,7 +1990,7 @@
             "_symbol",
             2
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -1946,19 +2000,19 @@
             "line-width":{
                "stops":[
                   [
-                     2,
+                     6,
                      0.8
                   ],
                   [
-                     13,
+                     17,
                      0.9
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2.1
                   ]
                ]
@@ -1975,7 +2029,7 @@
             "_symbol",
             3
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -1988,15 +2042,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2013,7 +2067,7 @@
             "_symbol",
             4
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2023,15 +2077,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.8
                   ],
                   [
-                     14,
+                     18,
                      1.2
                   ],
                   [
-                     15,
+                     19,
                      2.3
                   ]
                ]
@@ -2048,7 +2102,7 @@
             "_symbol",
             5
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2058,15 +2112,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.5
                   ],
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      1.6
                   ]
                ]
@@ -2083,7 +2137,7 @@
             "_symbol",
             6
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
             "line-join":"round"
          },
@@ -2096,15 +2150,15 @@
             "line-width":{
                "stops":[
                   [
-                     12,
+                     16,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2121,7 +2175,7 @@
             "_symbol",
             7
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2134,15 +2188,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2159,7 +2213,7 @@
             "_symbol",
             8
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2169,15 +2223,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.5
                   ],
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      1.8
                   ]
                ]
@@ -2194,7 +2248,7 @@
             "_symbol",
             9
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2203,16 +2257,16 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      1
                   ],
                   [
-                     14,
+                     18,
                      1.8
                   ],
                   [
-                     15,
-                     2.6
+                     19,
+                     2.5
                   ]
                ]
             }
@@ -2228,7 +2282,7 @@
             "_symbol",
             10
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2238,16 +2292,16 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      1.3
                   ],
                   [
-                     14,
+                     18,
                      2
                   ],
                   [
-                     15,
-                     2.6
+                     19,
+                     2.5
                   ]
                ]
             }
@@ -2263,7 +2317,7 @@
             "_symbol",
             11
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2273,15 +2327,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.5
                   ],
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      1.8
                   ]
                ]
@@ -2298,7 +2352,7 @@
             "_symbol",
             12
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2308,15 +2362,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.5
                   ],
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      1.8
                   ]
                ]
@@ -2333,7 +2387,7 @@
             "_symbol",
             13
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2346,16 +2400,16 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.5
                   ],
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
-                     2.2
+                     19,
+                     2.1
                   ]
                ]
             }
@@ -2371,7 +2425,7 @@
             "_symbol",
             14
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2384,15 +2438,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2409,7 +2463,7 @@
             "_symbol",
             15
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2419,15 +2473,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2444,7 +2498,7 @@
             "_symbol",
             16
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2454,15 +2508,15 @@
             "line-width":{
                "stops":[
                   [
-                     12,
+                     16,
                      0.4
                   ],
                   [
-                     14,
+                     18,
                      0.7
                   ],
                   [
-                     15,
+                     19,
                      1.3
                   ]
                ]
@@ -2479,7 +2533,7 @@
             "_symbol",
             33
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
 
          },
@@ -2497,7 +2551,7 @@
             "_symbol",
             17
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
             "line-join":"round"
          },
@@ -2506,15 +2560,15 @@
             "line-width":{
                "stops":[
                   [
-                     12,
+                     16,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2531,7 +2585,7 @@
             "_symbol",
             18
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
             "line-join":"round"
          },
@@ -2544,15 +2598,15 @@
             "line-width":{
                "stops":[
                   [
-                     12,
+                     16,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2569,7 +2623,7 @@
             "_symbol",
             19
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2582,15 +2636,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2607,7 +2661,7 @@
             "_symbol",
             20
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2616,15 +2670,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2641,7 +2695,7 @@
             "_symbol",
             21
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2651,15 +2705,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2676,7 +2730,7 @@
             "_symbol",
             22
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2686,7 +2740,7 @@
                2,
                2
             ],
-            "line-width":0.7
+            "line-width":0.6
          }
       },
       {
@@ -2699,7 +2753,7 @@
             "_symbol",
             23
          ],
-         "minzoom":11,
+         "minzoom":15,
          "layout":{
             "line-join":"round"
          },
@@ -2712,15 +2766,15 @@
             "line-width":{
                "stops":[
                   [
-                     12,
+                     16,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2737,7 +2791,7 @@
             "_symbol",
             24
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2750,15 +2804,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2775,7 +2829,7 @@
             "_symbol",
             25
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2788,15 +2842,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2813,7 +2867,7 @@
             "_symbol",
             26
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -2826,15 +2880,15 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.7
                   ],
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -2851,7 +2905,7 @@
             "_symbol",
             27
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2861,16 +2915,16 @@
             "line-width":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.5
                   ],
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
-                     2.2
+                     19,
+                     2
                   ]
                ]
             }
@@ -2886,15 +2940,15 @@
             "_symbol",
             0
          ],
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
          },
          "paint":{
             "line-color":"#A4DAEB",
-            "line-width":1
+            "line-width":0.9
          }
       },
       {
@@ -2907,8 +2961,8 @@
             "_symbol",
             1
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2928,8 +2982,8 @@
             "_symbol",
             1
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2949,8 +3003,8 @@
             "_symbol",
             2
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2970,8 +3024,8 @@
             "_symbol",
             2
          ],
-         "minzoom":4,
-         "maxzoom":8,
+         "minzoom":8,
+         "maxzoom":12,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -2991,8 +3045,8 @@
             "_symbol",
             3
          ],
-         "minzoom":6,
-         "maxzoom":12,
+         "minzoom":10,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3012,8 +3066,8 @@
             "_symbol",
             3
          ],
-         "minzoom":4,
-         "maxzoom":6,
+         "minzoom":8,
+         "maxzoom":10,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3033,8 +3087,8 @@
             "_symbol",
             4
          ],
-         "minzoom":1,
-         "maxzoom":2,
+         "minzoom":5,
+         "maxzoom":6,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3054,8 +3108,8 @@
             "_symbol",
             5
          ],
-         "minzoom":3,
-         "maxzoom":5,
+         "minzoom":7,
+         "maxzoom":9,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3075,8 +3129,8 @@
             "_symbol",
             5
          ],
-         "minzoom":2,
-         "maxzoom":3,
+         "minzoom":6,
+         "maxzoom":7,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3096,8 +3150,8 @@
             "_symbol",
             19
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -3110,19 +3164,19 @@
             "line-width":{
                "stops":[
                   [
-                     5,
+                     9,
                      0.7
                   ],
                   [
-                     8,
+                     12,
                      0.8
                   ],
                   [
-                     10,
+                     14,
                      1.6
                   ],
                   [
-                     12,
+                     16,
                      1.6
                   ]
                ]
@@ -3139,8 +3193,8 @@
             "_symbol",
             6
          ],
-         "minzoom":3,
-         "maxzoom":4,
+         "minzoom":7,
+         "maxzoom":8,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3160,8 +3214,8 @@
             "_symbol",
             0
          ],
-         "minzoom":3,
-         "maxzoom":12,
+         "minzoom":7,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3170,43 +3224,43 @@
             "line-width":{
                "stops":[
                   [
-                     2,
-                     4
-                  ],
-                  [
-                     3,
-                     4
-                  ],
-                  [
-                     4,
-                     4.7
-                  ],
-                  [
-                     5,
-                     5.3
-                  ],
-                  [
                      6,
-                     5.7
+                     4
+                  ],
+                  [
+                     7,
+                     4
                   ],
                   [
                      8,
-                     6
+                     4.6
                   ],
                   [
                      9,
-                     6.7
+                     5.3
                   ],
                   [
                      10,
-                     7.3
-                  ],
-                  [
-                     11,
-                     10.7
+                     5.7
                   ],
                   [
                      12,
+                     6
+                  ],
+                  [
+                     13,
+                     6.7
+                  ],
+                  [
+                     14,
+                     7.3
+                  ],
+                  [
+                     15,
+                     10.7
+                  ],
+                  [
+                     16,
                      16
                   ]
                ]
@@ -3223,8 +3277,8 @@
             "_symbol",
             0
          ],
-         "minzoom":1,
-         "maxzoom":3,
+         "minzoom":5,
+         "maxzoom":7,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3244,8 +3298,8 @@
             "_symbol",
             3
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3254,39 +3308,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     4
-                  ],
-                  [
-                     4,
-                     3.3
-                  ],
-                  [
                      5,
                      4
                   ],
                   [
-                     6,
-                     5.3
-                  ],
-                  [
                      8,
-                     5.3
+                     3.3
                   ],
                   [
                      9,
-                     6.3
+                     4
                   ],
                   [
                      10,
-                     7.3
-                  ],
-                  [
-                     11,
-                     10.7
+                     5.3
                   ],
                   [
                      12,
+                     5.3
+                  ],
+                  [
+                     13,
+                     6.3
+                  ],
+                  [
+                     14,
+                     7.3
+                  ],
+                  [
+                     15,
+                     10.7
+                  ],
+                  [
+                     16,
                      16
                   ]
                ]
@@ -3303,8 +3357,8 @@
             "_symbol",
             3
          ],
-         "minzoom":1,
-         "maxzoom":4,
+         "minzoom":5,
+         "maxzoom":8,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3314,15 +3368,15 @@
             "line-width":{
                "stops":[
                   [
-                     1,
+                     5,
                      1.3
                   ],
                   [
-                     3,
+                     7,
                      2
                   ],
                   [
-                     4,
+                     8,
                      1.3
                   ]
                ]
@@ -3339,8 +3393,8 @@
             "_symbol",
             6
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3349,39 +3403,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     2.7
-                  ],
-                  [
-                     4,
-                     2.7
-                  ],
-                  [
                      5,
-                     3.3
-                  ],
-                  [
-                     6,
-                     4
+                     2.7
                   ],
                   [
                      8,
-                     4.7
+                     2.7
                   ],
                   [
                      9,
-                     5.7
+                     3.3
                   ],
                   [
                      10,
-                     6.3
-                  ],
-                  [
-                     11,
-                     8
+                     4
                   ],
                   [
                      12,
+                     4.7
+                  ],
+                  [
+                     13,
+                     5.7
+                  ],
+                  [
+                     14,
+                     6.3
+                  ],
+                  [
+                     15,
+                     8
+                  ],
+                  [
+                     16,
                      13.3
                   ]
                ]
@@ -3398,8 +3452,8 @@
             "_symbol",
             8
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3408,35 +3462,35 @@
             "line-width":{
                "stops":[
                   [
-                     4,
+                     8,
                      4
                   ],
                   [
-                     5,
+                     9,
                      2.7
                   ],
                   [
-                     6,
+                     10,
                      3.3
                   ],
                   [
-                     8,
+                     12,
                      4.7
                   ],
                   [
-                     9,
+                     13,
                      5.7
                   ],
                   [
-                     10,
+                     14,
                      6
                   ],
                   [
-                     11,
+                     15,
                      8
                   ],
                   [
-                     12,
+                     16,
                      13.3
                   ]
                ]
@@ -3453,8 +3507,8 @@
             "_symbol",
             10
          ],
-         "minzoom":6,
-         "maxzoom":12,
+         "minzoom":10,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3463,31 +3517,31 @@
             "line-width":{
                "stops":[
                   [
-                     5,
-                     3
-                  ],
-                  [
-                     6,
-                     3
-                  ],
-                  [
-                     8,
-                     4
-                  ],
-                  [
                      9,
-                     5.3
+                     3
                   ],
                   [
                      10,
-                     6.7
-                  ],
-                  [
-                     11,
-                     7.3
+                     3
                   ],
                   [
                      12,
+                     4
+                  ],
+                  [
+                     13,
+                     5.3
+                  ],
+                  [
+                     14,
+                     6.7
+                  ],
+                  [
+                     15,
+                     7.3
+                  ],
+                  [
+                     16,
                      10.7
                   ]
                ]
@@ -3504,8 +3558,8 @@
             "_symbol",
             13
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3515,19 +3569,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      3.7
                   ],
                   [
-                     10,
+                     14,
                      4.7
                   ],
                   [
-                     11,
+                     15,
                      6
                   ],
                   [
-                     12,
+                     16,
                      8.7
                   ]
                ]
@@ -3544,8 +3598,8 @@
             "_symbol",
             15
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3555,19 +3609,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      3.7
                   ],
                   [
-                     10,
+                     14,
                      4.7
                   ],
                   [
-                     11,
+                     15,
                      5.3
                   ],
                   [
-                     12,
+                     16,
                      7.3
                   ]
                ]
@@ -3584,8 +3638,8 @@
             "_symbol",
             17
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3595,23 +3649,23 @@
             "line-width":{
                "stops":[
                   [
-                     8,
+                     12,
                      4
                   ],
                   [
-                     9,
+                     13,
                      4
                   ],
                   [
-                     10,
+                     14,
                      5.3
                   ],
                   [
-                     11,
+                     15,
                      6.7
                   ],
                   [
-                     12,
+                     16,
                      7.3
                   ]
                ]
@@ -3628,8 +3682,8 @@
             "_symbol",
             6
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3638,39 +3692,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     1.8
-                  ],
-                  [
-                     4,
-                     1.8
-                  ],
-                  [
                      5,
-                     2.3
-                  ],
-                  [
-                     6,
-                     2.8
+                     1.8
                   ],
                   [
                      8,
-                     3.3
+                     1.8
                   ],
                   [
                      9,
-                     3.9
+                     2.3
                   ],
                   [
                      10,
-                     4.4
-                  ],
-                  [
-                     11,
-                     5.6
+                     2.8
                   ],
                   [
                      12,
+                     3.2
+                  ],
+                  [
+                     13,
+                     3.9
+                  ],
+                  [
+                     14,
+                     4.4
+                  ],
+                  [
+                     15,
+                     5.6
+                  ],
+                  [
+                     16,
                      9.3
                   ]
                ]
@@ -3687,8 +3741,8 @@
             "_symbol",
             8
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3697,35 +3751,35 @@
             "line-width":{
                "stops":[
                   [
-                     4,
+                     8,
                      2.8
                   ],
                   [
-                     5,
-                     1.9
-                  ],
-                  [
-                     6,
-                     2.3
-                  ],
-                  [
-                     8,
-                     3.3
-                  ],
-                  [
                      9,
-                     3.9
+                     1.8
                   ],
                   [
                      10,
-                     4.2
-                  ],
-                  [
-                     11,
-                     5.6
+                     2.3
                   ],
                   [
                      12,
+                     3.2
+                  ],
+                  [
+                     13,
+                     3.9
+                  ],
+                  [
+                     14,
+                     4.2
+                  ],
+                  [
+                     15,
+                     5.6
+                  ],
+                  [
+                     16,
                      9.3
                   ]
                ]
@@ -3742,8 +3796,8 @@
             "_symbol",
             10
          ],
-         "minzoom":6,
-         "maxzoom":12,
+         "minzoom":10,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3752,31 +3806,31 @@
             "line-width":{
                "stops":[
                   [
-                     5,
-                     1.875
-                  ],
-                  [
-                     6,
-                     1.875
-                  ],
-                  [
-                     8,
-                     2.5
-                  ],
-                  [
                      9,
-                     3.3
+                     1.875
                   ],
                   [
                      10,
-                     4.2
-                  ],
-                  [
-                     11,
-                     4.6
+                     1.875
                   ],
                   [
                      12,
+                     2.5
+                  ],
+                  [
+                     13,
+                     3.3
+                  ],
+                  [
+                     14,
+                     4.2
+                  ],
+                  [
+                     15,
+                     4.5
+                  ],
+                  [
+                     16,
                      6.7
                   ]
                ]
@@ -3793,8 +3847,8 @@
             "_symbol",
             13
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3804,19 +3858,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      2.3
                   ],
                   [
-                     10,
+                     14,
                      2.9
                   ],
                   [
-                     11,
+                     15,
                      3.75
                   ],
                   [
-                     12,
+                     16,
                      5.4
                   ]
                ]
@@ -3833,8 +3887,8 @@
             "_symbol",
             15
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3844,19 +3898,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      2
                   ],
                   [
-                     10,
+                     14,
                      2.7
                   ],
                   [
-                     11,
+                     15,
                      3
                   ],
                   [
-                     12,
+                     16,
                      4.2
                   ]
                ]
@@ -3873,8 +3927,8 @@
             "_symbol",
             17
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3884,23 +3938,23 @@
             "line-width":{
                "stops":[
                   [
-                     8,
+                     12,
                      2
                   ],
                   [
-                     9,
+                     13,
                      2
                   ],
                   [
-                     10,
+                     14,
                      2.7
                   ],
                   [
-                     11,
+                     15,
                      3.3
                   ],
                   [
-                     12,
+                     16,
                      3.7
                   ]
                ]
@@ -3917,8 +3971,8 @@
             "_symbol",
             0
          ],
-         "minzoom":3,
-         "maxzoom":12,
+         "minzoom":7,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -3927,43 +3981,43 @@
             "line-width":{
                "stops":[
                   [
-                     2,
-                     3
-                  ],
-                  [
-                     3,
-                     3
-                  ],
-                  [
-                     4,
-                     3.5
-                  ],
-                  [
-                     5,
-                     4
-                  ],
-                  [
                      6,
-                     4.25
+                     3
+                  ],
+                  [
+                     7,
+                     3
                   ],
                   [
                      8,
-                     4.5
+                     3.5
                   ],
                   [
                      9,
-                     5
+                     4
                   ],
                   [
                      10,
-                     5.5
-                  ],
-                  [
-                     11,
-                     8
+                     4.25
                   ],
                   [
                      12,
+                     4.5
+                  ],
+                  [
+                     13,
+                     5
+                  ],
+                  [
+                     14,
+                     5.5
+                  ],
+                  [
+                     15,
+                     8
+                  ],
+                  [
+                     16,
                      12
                   ]
                ]
@@ -3980,8 +4034,8 @@
             "_symbol",
             3
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -3991,39 +4045,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     2.5
-                  ],
-                  [
-                     4,
-                     2
-                  ],
-                  [
                      5,
                      2.5
                   ],
                   [
-                     6,
-                     3.3
-                  ],
-                  [
                      8,
-                     3.3
+                     2
                   ],
                   [
                      9,
-                     3.9
+                     2.5
                   ],
                   [
                      10,
-                     4.6
-                  ],
-                  [
-                     11,
-                     6.7
+                     3.3
                   ],
                   [
                      12,
+                     3.3
+                  ],
+                  [
+                     13,
+                     3.9
+                  ],
+                  [
+                     14,
+                     4.5
+                  ],
+                  [
+                     15,
+                     6.7
+                  ],
+                  [
+                     16,
                      10
                   ]
                ]
@@ -4040,8 +4094,8 @@
             "_symbol",
             1
          ],
-         "minzoom":3,
-         "maxzoom":12,
+         "minzoom":7,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4050,43 +4104,43 @@
             "line-width":{
                "stops":[
                   [
-                     2,
-                     4
-                  ],
-                  [
-                     3,
-                     4
-                  ],
-                  [
-                     4,
-                     4.7
-                  ],
-                  [
-                     5,
-                     5.3
-                  ],
-                  [
                      6,
-                     5.7
+                     4
+                  ],
+                  [
+                     7,
+                     4
                   ],
                   [
                      8,
-                     6
+                     4.7
                   ],
                   [
                      9,
-                     6.7
+                     5.3
                   ],
                   [
                      10,
-                     7.3
-                  ],
-                  [
-                     11,
-                     10.7
+                     5.7
                   ],
                   [
                      12,
+                     6
+                  ],
+                  [
+                     13,
+                     6.7
+                  ],
+                  [
+                     14,
+                     7.3
+                  ],
+                  [
+                     15,
+                     10.7
+                  ],
+                  [
+                     16,
                      16
                   ]
                ]
@@ -4103,8 +4157,8 @@
             "_symbol",
             1
          ],
-         "minzoom":1,
-         "maxzoom":3,
+         "minzoom":5,
+         "maxzoom":7,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4124,8 +4178,8 @@
             "_symbol",
             4
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4134,39 +4188,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     4
-                  ],
-                  [
-                     4,
-                     3.3
-                  ],
-                  [
                      5,
                      4
                   ],
                   [
-                     6,
-                     5.3
-                  ],
-                  [
                      8,
-                     5.3
+                     3.3
                   ],
                   [
                      9,
-                     6.3
+                     4
                   ],
                   [
                      10,
-                     7.3
-                  ],
-                  [
-                     11,
-                     10.7
+                     5.3
                   ],
                   [
                      12,
+                     5.3
+                  ],
+                  [
+                     13,
+                     6.3
+                  ],
+                  [
+                     14,
+                     7.3
+                  ],
+                  [
+                     15,
+                     10.7
+                  ],
+                  [
+                     16,
                      16
                   ]
                ]
@@ -4183,8 +4237,8 @@
             "_symbol",
             4
          ],
-         "minzoom":1,
-         "maxzoom":4,
+         "minzoom":5,
+         "maxzoom":8,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4194,15 +4248,15 @@
             "line-width":{
                "stops":[
                   [
-                     1,
+                     5,
                      1.3
                   ],
                   [
-                     3,
+                     7,
                      2
                   ],
                   [
-                     4,
+                     8,
                      1.3
                   ]
                ]
@@ -4219,8 +4273,8 @@
             "_symbol",
             7
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4229,39 +4283,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     2.7
-                  ],
-                  [
-                     4,
-                     2.7
-                  ],
-                  [
                      5,
-                     3.3
-                  ],
-                  [
-                     6,
-                     4
+                     2.7
                   ],
                   [
                      8,
-                     4.7
+                     2.7
                   ],
                   [
                      9,
-                     5.7
+                     3.3
                   ],
                   [
                      10,
-                     6.3
-                  ],
-                  [
-                     11,
-                     8
+                     4
                   ],
                   [
                      12,
+                     4.7
+                  ],
+                  [
+                     13,
+                     5.7
+                  ],
+                  [
+                     14,
+                     6.3
+                  ],
+                  [
+                     15,
+                     8
+                  ],
+                  [
+                     16,
                      13.3
                   ]
                ]
@@ -4278,8 +4332,8 @@
             "_symbol",
             7
          ],
-         "minzoom":3,
-         "maxzoom":4,
+         "minzoom":7,
+         "maxzoom":8,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4299,8 +4353,8 @@
             "_symbol",
             9
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4309,35 +4363,35 @@
             "line-width":{
                "stops":[
                   [
-                     4,
+                     8,
                      4
                   ],
                   [
-                     5,
+                     9,
                      2.7
                   ],
                   [
-                     6,
+                     10,
                      3.3
                   ],
                   [
-                     8,
+                     12,
                      4.7
                   ],
                   [
-                     9,
+                     13,
                      5.7
                   ],
                   [
-                     10,
+                     14,
                      6
                   ],
                   [
-                     11,
+                     15,
                      8
                   ],
                   [
-                     12,
+                     16,
                      13.3
                   ]
                ]
@@ -4354,8 +4408,8 @@
             "_symbol",
             11
          ],
-         "minzoom":6,
-         "maxzoom":12,
+         "minzoom":10,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4364,31 +4418,31 @@
             "line-width":{
                "stops":[
                   [
-                     5,
-                     3
-                  ],
-                  [
-                     6,
-                     3
-                  ],
-                  [
-                     8,
-                     4
-                  ],
-                  [
                      9,
-                     5.3
+                     3
                   ],
                   [
                      10,
-                     6.7
-                  ],
-                  [
-                     11,
-                     7.3
+                     3
                   ],
                   [
                      12,
+                     4
+                  ],
+                  [
+                     13,
+                     5.3
+                  ],
+                  [
+                     14,
+                     6.7
+                  ],
+                  [
+                     15,
+                     7.3
+                  ],
+                  [
+                     16,
                      10.7
                   ]
                ]
@@ -4405,8 +4459,8 @@
             "_symbol",
             14
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4416,19 +4470,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      3.7
                   ],
                   [
-                     10,
+                     14,
                      4.7
                   ],
                   [
-                     11,
+                     15,
                      6
                   ],
                   [
-                     12,
+                     16,
                      8.7
                   ]
                ]
@@ -4445,8 +4499,8 @@
             "_symbol",
             16
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4456,19 +4510,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      3.7
                   ],
                   [
-                     10,
+                     14,
                      4.7
                   ],
                   [
-                     11,
+                     15,
                      5.3
                   ],
                   [
-                     12,
+                     16,
                      7.3
                   ]
                ]
@@ -4485,8 +4539,8 @@
             "_symbol",
             18
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4496,23 +4550,23 @@
             "line-width":{
                "stops":[
                   [
-                     8,
+                     12,
                      4
                   ],
                   [
-                     9,
+                     13,
                      4
                   ],
                   [
-                     10,
+                     14,
                      5.3
                   ],
                   [
-                     11,
+                     15,
                      6.7
                   ],
                   [
-                     12,
+                     16,
                      7.3
                   ]
                ]
@@ -4529,8 +4583,8 @@
             "_symbol",
             7
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4539,39 +4593,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     1.9
-                  ],
-                  [
-                     4,
-                     1.9
-                  ],
-                  [
                      5,
-                     2.3
-                  ],
-                  [
-                     6,
-                     2.8
+                     1.8
                   ],
                   [
                      8,
-                     3.3
+                     1.8
                   ],
                   [
                      9,
-                     3.9
+                     2.3
                   ],
                   [
                      10,
-                     4.4
-                  ],
-                  [
-                     11,
-                     5.6
+                     2.8
                   ],
                   [
                      12,
+                     3.2
+                  ],
+                  [
+                     13,
+                     3.9
+                  ],
+                  [
+                     14,
+                     4.4
+                  ],
+                  [
+                     15,
+                     5.6
+                  ],
+                  [
+                     16,
                      9.3
                   ]
                ]
@@ -4588,8 +4642,8 @@
             "_symbol",
             9
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4598,35 +4652,35 @@
             "line-width":{
                "stops":[
                   [
-                     4,
+                     8,
                      2.8
                   ],
                   [
-                     5,
-                     1.9
-                  ],
-                  [
-                     6,
-                     2.3
-                  ],
-                  [
-                     8,
-                     3.3
-                  ],
-                  [
                      9,
-                     3.9
+                     1.8
                   ],
                   [
                      10,
-                     4.2
-                  ],
-                  [
-                     11,
-                     5.6
+                     2.3
                   ],
                   [
                      12,
+                     3.2
+                  ],
+                  [
+                     13,
+                     3.9
+                  ],
+                  [
+                     14,
+                     4.2
+                  ],
+                  [
+                     15,
+                     5.6
+                  ],
+                  [
+                     16,
                      9.3
                   ]
                ]
@@ -4643,8 +4697,8 @@
             "_symbol",
             11
          ],
-         "minzoom":6,
-         "maxzoom":12,
+         "minzoom":10,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4653,31 +4707,31 @@
             "line-width":{
                "stops":[
                   [
-                     5,
-                     1.875
-                  ],
-                  [
-                     6,
-                     1.875
-                  ],
-                  [
-                     8,
-                     2.5
-                  ],
-                  [
                      9,
-                     3.3
+                     1.875
                   ],
                   [
                      10,
-                     4.2
-                  ],
-                  [
-                     11,
-                     4.6
+                     1.875
                   ],
                   [
                      12,
+                     2.5
+                  ],
+                  [
+                     13,
+                     3.3
+                  ],
+                  [
+                     14,
+                     4.2
+                  ],
+                  [
+                     15,
+                     4.5
+                  ],
+                  [
+                     16,
                      6.7
                   ]
                ]
@@ -4694,8 +4748,8 @@
             "_symbol",
             14
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4705,19 +4759,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      2.3
                   ],
                   [
-                     10,
+                     14,
                      2.9
                   ],
                   [
-                     11,
+                     15,
                      3.75
                   ],
                   [
-                     12,
+                     16,
                      5.4
                   ]
                ]
@@ -4734,8 +4788,8 @@
             "_symbol",
             16
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4745,19 +4799,19 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      2
                   ],
                   [
-                     10,
+                     14,
                      2.7
                   ],
                   [
-                     11,
+                     15,
                      3
                   ],
                   [
-                     12,
+                     16,
                      4.2
                   ]
                ]
@@ -4774,8 +4828,8 @@
             "_symbol",
             18
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4785,23 +4839,23 @@
             "line-width":{
                "stops":[
                   [
-                     8,
+                     12,
                      2
                   ],
                   [
-                     9,
+                     13,
                      2
                   ],
                   [
-                     10,
+                     14,
                      2.7
                   ],
                   [
-                     11,
+                     15,
                      3.3
                   ],
                   [
-                     12,
+                     16,
                      3.7
                   ]
                ]
@@ -4818,8 +4872,8 @@
             "_symbol",
             1
          ],
-         "minzoom":3,
-         "maxzoom":12,
+         "minzoom":7,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4828,43 +4882,43 @@
             "line-width":{
                "stops":[
                   [
-                     2,
-                     3
-                  ],
-                  [
-                     3,
-                     3
-                  ],
-                  [
-                     4,
-                     3.5
-                  ],
-                  [
-                     5,
-                     4
-                  ],
-                  [
                      6,
-                     4.25
+                     3
+                  ],
+                  [
+                     7,
+                     3
                   ],
                   [
                      8,
-                     4.5
+                     3.5
                   ],
                   [
                      9,
-                     5
+                     4
                   ],
                   [
                      10,
-                     5.5
-                  ],
-                  [
-                     11,
-                     8
+                     4.25
                   ],
                   [
                      12,
+                     4.5
+                  ],
+                  [
+                     13,
+                     5
+                  ],
+                  [
+                     14,
+                     5.5
+                  ],
+                  [
+                     15,
+                     8
+                  ],
+                  [
+                     16,
                      12
                   ]
                ]
@@ -4881,8 +4935,8 @@
             "_symbol",
             4
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -4892,39 +4946,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     2.5
-                  ],
-                  [
-                     4,
-                     2
-                  ],
-                  [
                      5,
                      2.5
                   ],
                   [
-                     6,
-                     3.3
-                  ],
-                  [
                      8,
-                     3.3
+                     2
                   ],
                   [
                      9,
-                     3.9
+                     2.5
                   ],
                   [
                      10,
-                     4.6
-                  ],
-                  [
-                     11,
-                     6.7
+                     3.3
                   ],
                   [
                      12,
+                     3.3
+                  ],
+                  [
+                     13,
+                     3.9
+                  ],
+                  [
+                     14,
+                     4.5
+                  ],
+                  [
+                     15,
+                     6.7
+                  ],
+                  [
+                     16,
                      10
                   ]
                ]
@@ -4941,8 +4995,8 @@
             "_symbol",
             2
          ],
-         "minzoom":3,
-         "maxzoom":12,
+         "minzoom":7,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -4951,43 +5005,43 @@
             "line-width":{
                "stops":[
                   [
-                     2,
-                     4
-                  ],
-                  [
-                     3,
-                     4
-                  ],
-                  [
-                     4,
-                     4.7
-                  ],
-                  [
-                     5,
-                     5.3
-                  ],
-                  [
                      6,
-                     5.7
+                     4
+                  ],
+                  [
+                     7,
+                     4
                   ],
                   [
                      8,
-                     6
+                     4.7
                   ],
                   [
                      9,
-                     6.7
+                     5.3
                   ],
                   [
                      10,
-                     7.3
-                  ],
-                  [
-                     11,
-                     10.7
+                     5.7
                   ],
                   [
                      12,
+                     6
+                  ],
+                  [
+                     13,
+                     6.7
+                  ],
+                  [
+                     14,
+                     7.3
+                  ],
+                  [
+                     15,
+                     10.7
+                  ],
+                  [
+                     16,
                      16
                   ]
                ]
@@ -5004,8 +5058,8 @@
             "_symbol",
             2
          ],
-         "minzoom":1,
-         "maxzoom":3,
+         "minzoom":5,
+         "maxzoom":7,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -5025,8 +5079,8 @@
             "_symbol",
             5
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -5035,39 +5089,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     4
-                  ],
-                  [
-                     4,
-                     3.3
-                  ],
-                  [
                      5,
                      4
                   ],
                   [
-                     6,
-                     5.3
-                  ],
-                  [
                      8,
-                     5.3
+                     3.3
                   ],
                   [
                      9,
-                     6.3
+                     4
                   ],
                   [
                      10,
-                     7.3
-                  ],
-                  [
-                     11,
-                     10.7
+                     5.3
                   ],
                   [
                      12,
+                     5.3
+                  ],
+                  [
+                     13,
+                     6.3
+                  ],
+                  [
+                     14,
+                     7.3
+                  ],
+                  [
+                     15,
+                     10.7
+                  ],
+                  [
+                     16,
                      16
                   ]
                ]
@@ -5084,8 +5138,8 @@
             "_symbol",
             5
          ],
-         "minzoom":1,
-         "maxzoom":4,
+         "minzoom":5,
+         "maxzoom":8,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -5095,15 +5149,15 @@
             "line-width":{
                "stops":[
                   [
-                     1,
+                     5,
                      1.3
                   ],
                   [
-                     3,
+                     7,
                      2
                   ],
                   [
-                     4,
+                     8,
                      1.3
                   ]
                ]
@@ -5120,8 +5174,8 @@
             "_symbol",
             12
          ],
-         "minzoom":6,
-         "maxzoom":12,
+         "minzoom":10,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -5130,31 +5184,31 @@
             "line-width":{
                "stops":[
                   [
-                     5,
-                     3
-                  ],
-                  [
-                     6,
-                     3
-                  ],
-                  [
-                     8,
-                     4
-                  ],
-                  [
                      9,
-                     5.3
+                     3
                   ],
                   [
                      10,
-                     6.7
-                  ],
-                  [
-                     11,
-                     7.3
+                     3
                   ],
                   [
                      12,
+                     4
+                  ],
+                  [
+                     13,
+                     5.3
+                  ],
+                  [
+                     14,
+                     6.7
+                  ],
+                  [
+                     15,
+                     7.3
+                  ],
+                  [
+                     16,
                      10.7
                   ]
                ]
@@ -5171,8 +5225,8 @@
             "_symbol",
             2
          ],
-         "minzoom":3,
-         "maxzoom":12,
+         "minzoom":7,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -5181,43 +5235,43 @@
             "line-width":{
                "stops":[
                   [
-                     2,
-                     3
-                  ],
-                  [
-                     3,
-                     3
-                  ],
-                  [
-                     4,
-                     3.5
-                  ],
-                  [
-                     5,
-                     4
-                  ],
-                  [
                      6,
-                     4.25
+                     3
+                  ],
+                  [
+                     7,
+                     3
                   ],
                   [
                      8,
-                     4.5
+                     3.5
                   ],
                   [
                      9,
-                     5
+                     4
                   ],
                   [
                      10,
-                     5.5
-                  ],
-                  [
-                     11,
-                     8
+                     4.25
                   ],
                   [
                      12,
+                     4.5
+                  ],
+                  [
+                     13,
+                     5
+                  ],
+                  [
+                     14,
+                     5.5
+                  ],
+                  [
+                     15,
+                     8
+                  ],
+                  [
+                     16,
                      12
                   ]
                ]
@@ -5234,8 +5288,8 @@
             "_symbol",
             5
          ],
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -5245,39 +5299,39 @@
             "line-width":{
                "stops":[
                   [
-                     1,
-                     2.5
-                  ],
-                  [
-                     4,
-                     2
-                  ],
-                  [
                      5,
                      2.5
                   ],
                   [
-                     6,
-                     3.3
-                  ],
-                  [
                      8,
-                     3.3
+                     2
                   ],
                   [
                      9,
-                     3.9
+                     2.5
                   ],
                   [
                      10,
-                     4.5
-                  ],
-                  [
-                     11,
-                     6.7
+                     3.3
                   ],
                   [
                      12,
+                     3.3
+                  ],
+                  [
+                     13,
+                     3.9
+                  ],
+                  [
+                     14,
+                     4.5
+                  ],
+                  [
+                     15,
+                     6.7
+                  ],
+                  [
+                     16,
                      10
                   ]
                ]
@@ -5294,8 +5348,8 @@
             "_symbol",
             12
          ],
-         "minzoom":6,
-         "maxzoom":12,
+         "minzoom":10,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -5304,31 +5358,31 @@
             "line-width":{
                "stops":[
                   [
-                     5,
-                     1.875
-                  ],
-                  [
-                     6,
-                     1.875
-                  ],
-                  [
-                     8,
-                     2.5
-                  ],
-                  [
                      9,
-                     3.3
+                     1.875
                   ],
                   [
                      10,
-                     4.2
-                  ],
-                  [
-                     11,
-                     4.6
+                     1.875
                   ],
                   [
                      12,
+                     2.5
+                  ],
+                  [
+                     13,
+                     3.3
+                  ],
+                  [
+                     14,
+                     4.1
+                  ],
+                  [
+                     15,
+                     4.5
+                  ],
+                  [
+                     16,
                      6.7
                   ]
                ]
@@ -5345,8 +5399,8 @@
             "_symbol",
             0
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -5356,31 +5410,31 @@
             "line-width":{
                "stops":[
                   [
-                     6,
-                     1.5
-                  ],
-                  [
-                     7,
-                     1.5
-                  ],
-                  [
-                     8,
-                     1.5
-                  ],
-                  [
-                     9,
-                     1.5
-                  ],
-                  [
                      10,
-                     1.5
+                     1.4
                   ],
                   [
                      11,
-                     2
+                     1.4
                   ],
                   [
                      12,
+                     1.4
+                  ],
+                  [
+                     13,
+                     1.5
+                  ],
+                  [
+                     14,
+                     1.5
+                  ],
+                  [
+                     15,
+                     2
+                  ],
+                  [
+                     16,
                      1.3
                   ]
                ]
@@ -5397,8 +5451,8 @@
             "_symbol",
             1
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -5408,23 +5462,23 @@
             "line-width":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.4
                   ],
                   [
-                     9,
+                     13,
                      0.4
                   ],
                   [
-                     10,
+                     14,
                      0.4
                   ],
                   [
-                     11,
+                     15,
                      0.5
                   ],
                   [
-                     12,
+                     16,
                      0.5
                   ]
                ]
@@ -5441,8 +5495,8 @@
             "_symbol",
             2
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
             "line-cap":"round",
             "line-join":"round"
@@ -5452,31 +5506,31 @@
             "line-width":{
                "stops":[
                   [
-                     6,
-                     1.2
-                  ],
-                  [
-                     7,
-                     1.2
-                  ],
-                  [
-                     8,
-                     1.2
-                  ],
-                  [
-                     9,
-                     1.2
-                  ],
-                  [
                      10,
                      1.2
                   ],
                   [
                      11,
-                     1.6
+                     1.2
                   ],
                   [
                      12,
+                     1.2
+                  ],
+                  [
+                     13,
+                     1.2
+                  ],
+                  [
+                     14,
+                     1.2
+                  ],
+                  [
+                     15,
+                     1.6
+                  ],
+                  [
+                     16,
                      1.6
                   ]
                ]
@@ -5493,8 +5547,8 @@
             "_symbol",
             3
          ],
-         "minzoom":5,
-         "maxzoom":12,
+         "minzoom":9,
+         "maxzoom":16,
          "layout":{
 
          },
@@ -5507,31 +5561,31 @@
             "line-width":{
                "stops":[
                   [
-                     6,
-                     1
-                  ],
-                  [
-                     7,
-                     1
-                  ],
-                  [
-                     8,
-                     1
-                  ],
-                  [
-                     9,
-                     1
-                  ],
-                  [
                      10,
                      1
                   ],
                   [
                      11,
-                     1.6
+                     1
                   ],
                   [
                      12,
+                     1
+                  ],
+                  [
+                     13,
+                     1
+                  ],
+                  [
+                     14,
+                     1
+                  ],
+                  [
+                     15,
+                     1.6
+                  ],
+                  [
+                     16,
                      1.6
                   ]
                ]
@@ -5543,8 +5597,8 @@
          "type":"line",
          "source":"esri",
          "source-layer":"ETL",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "line-join":"round"
          },
@@ -5557,20 +5611,20 @@
             "line-width":{
                "stops":[
                   [
-                     9,
+                     13,
                      1.3
                   ],
                   [
-                     10,
+                     14,
                      1.3
                   ],
                   [
-                     11,
+                     15,
                      2.2
                   ],
                   [
-                     12,
-                     1.8
+                     16,
+                     1.7
                   ]
                ]
             },
@@ -5587,30 +5641,30 @@
             "_symbol",
             0
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Railway_stations/Light Rapid Transit Station",
             "icon-size":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.5
                   ],
                   [
-                     9,
+                     13,
                      0.7
                   ],
                   [
-                     10,
+                     14,
                      0.8
                   ],
                   [
-                     11,
+                     15,
                      0.9
                   ],
                   [
-                     12,
+                     16,
                      1
                   ]
                ]
@@ -5631,30 +5685,30 @@
             "_symbol",
             1
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
             "icon-size":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.5
                   ],
                   [
-                     9,
+                     13,
                      0.7
                   ],
                   [
-                     10,
+                     14,
                      0.8
                   ],
                   [
-                     11,
+                     15,
                      0.9
                   ],
                   [
-                     12,
+                     16,
                      1
                   ]
                ]
@@ -5675,8 +5729,8 @@
             "_symbol",
             1
          ],
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
             "icon-allow-overlap":true
@@ -5695,30 +5749,30 @@
             "_symbol",
             2
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Railway_stations/Light Rapid Transit Station And Railway Station",
             "icon-size":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.7
                   ],
                   [
-                     9,
+                     13,
                      0.7
                   ],
                   [
-                     10,
+                     14,
                      0.8
                   ],
                   [
-                     11,
+                     15,
                      0.9
                   ],
                   [
-                     12,
+                     16,
                      1
                   ]
                ]
@@ -5739,30 +5793,30 @@
             "_symbol",
             3
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Railway_stations/London Underground Station",
             "icon-size":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.6
                   ],
                   [
-                     9,
+                     13,
                      0.7
                   ],
                   [
-                     10,
+                     14,
                      0.8
                   ],
                   [
-                     11,
+                     15,
                      0.9
                   ],
                   [
-                     12,
+                     16,
                      1
                   ]
                ]
@@ -5783,31 +5837,31 @@
             "_symbol",
             4
          ],
-         "minzoom":7,
-         "maxzoom":12,
+         "minzoom":11,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Railway_stations/Railway Station",
             "icon-size":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.6
                   ],
                   [
-                     9,
+                     13,
                      0.7
                   ],
                   [
-                     10,
+                     14,
                      0.8
                   ],
                   [
-                     11,
+                     15,
                      0.9
                   ],
                   [
-                     12,
-                     0.9
+                     16,
+                     1
                   ]
                ]
             },
@@ -5827,30 +5881,30 @@
             "_symbol",
             5
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Railway_stations/Railway Station And London Underground Station",
             "icon-size":{
                "stops":[
                   [
-                     8,
+                     12,
                      0.6
                   ],
                   [
-                     9,
+                     13,
                      0.8
                   ],
                   [
-                     10,
+                     14,
                      0.8
                   ],
                   [
-                     11,
+                     15,
                      0.9
                   ],
                   [
-                     12,
+                     16,
                      1
                   ]
                ]
@@ -5871,8 +5925,8 @@
             "_symbol",
             5
          ],
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Railway_stations/Railway Station And London Underground Station_1",
             "icon-allow-overlap":true
@@ -5886,42 +5940,42 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Airports",
-         "minzoom":4,
-         "maxzoom":12,
+         "minzoom":8,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Airports",
             "icon-size":{
                "stops":[
                   [
-                     5,
-                     0.85
-                  ],
-                  [
-                     6,
-                     0.85
-                  ],
-                  [
-                     7,
-                     0.85
-                  ],
-                  [
-                     8,
-                     0.85
-                  ],
-                  [
                      9,
-                     1
+                     0.85
                   ],
                   [
                      10,
-                     1
+                     0.85
                   ],
                   [
                      11,
-                     1
+                     0.85
                   ],
                   [
                      12,
+                     0.85
+                  ],
+                  [
+                     13,
+                     1
+                  ],
+                  [
+                     14,
+                     1
+                  ],
+                  [
+                     15,
+                     1
+                  ],
+                  [
+                     16,
                      1
                   ]
                ]
@@ -5942,21 +5996,21 @@
             "_symbol",
             0
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "icon-image":"OS/TopographicPoint/Spot Height",
             "icon-size":{
                "stops":[
                   [
-                     13,
+                     17,
                      0.6
                   ],
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -5977,17 +6031,17 @@
             "_symbol",
             1
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Site Of Heritage",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.2
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6008,17 +6062,17 @@
             "_symbol",
             2
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Positioned Nonconiferous Tree",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6039,17 +6093,17 @@
             "_symbol",
             3
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Inland Water",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6070,17 +6124,17 @@
             "_symbol",
             4
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Roadside",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6101,17 +6155,17 @@
             "_symbol",
             5
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Overhead Construction",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6132,17 +6186,17 @@
             "_symbol",
             6
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Rail",
             "icon-size":{
                "stops":[
                   [
-                     14,
-                     1
+                     18,
+                     1.2
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6163,17 +6217,17 @@
             "_symbol",
             7
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Positioned Coniferous Tree",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6194,17 +6248,17 @@
             "_symbol",
             8
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Triangulation Point Or Pillar",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.25
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6225,17 +6279,17 @@
             "_symbol",
             9
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Historic Interest",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6256,17 +6310,17 @@
             "_symbol",
             10
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Landform",
             "icon-size":{
                "stops":[
                   [
-                     14,
-                     1
+                     18,
+                     1.3
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6287,17 +6341,17 @@
             "_symbol",
             11
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Tidal Water",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.4
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6318,17 +6372,17 @@
             "_symbol",
             12
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/TopographicPoint/Structure",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.4
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6349,17 +6403,17 @@
             "_symbol",
             0
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/CartographicSymbol/Culvert Symbol",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1.6
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6384,17 +6438,17 @@
             "_symbol",
             1
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/CartographicSymbol/Direction Of Flow Symbol",
             "icon-size":{
                "stops":[
                   [
-                     14,
+                     18,
                      1
                   ],
                   [
-                     15,
+                     19,
                      1.5
                   ]
                ]
@@ -6419,17 +6473,17 @@
             "_symbol",
             2
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/CartographicSymbol/Bench Mark Symbol",
             "icon-size":{
                "stops":[
                   [
-                     14,
-                     1.3
+                     18,
+                     1.2
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6454,17 +6508,17 @@
             "_symbol",
             3
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "icon-image":"OS/CartographicSymbol/Road Related Flow Symbol",
             "icon-size":{
                "stops":[
                   [
-                     14,
-                     1.2
+                     18,
+                     1.1
                   ],
                   [
-                     15,
+                     19,
                      2
                   ]
                ]
@@ -6484,7 +6538,7 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Capital:1",
-         "maxzoom":5,
+         "maxzoom":9,
          "layout":{
             "icon-image":"OS/Names/National/Capital:1",
             "icon-allow-overlap":true
@@ -6498,7 +6552,7 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Country",
-         "maxzoom":5,
+         "maxzoom":9,
          "layout":{
             "icon-image":"OS/Names/National/Country",
             "icon-allow-overlap":true
@@ -6517,7 +6571,7 @@
             "_label_class79",
             79
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Light"
@@ -6551,7 +6605,7 @@
             "_label_class64",
             64
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6581,7 +6635,7 @@
             "_label_class74",
             74
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6611,8 +6665,8 @@
             "_label_class97",
             97
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6642,7 +6696,7 @@
             "_label_class87",
             87
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6672,7 +6726,7 @@
             "_label_class72",
             72
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6702,7 +6756,7 @@
             "_label_class73",
             73
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6732,7 +6786,7 @@
             "_label_class61",
             61
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6762,8 +6816,8 @@
             "_label_class99",
             99
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6793,8 +6847,8 @@
             "_label_class96",
             96
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6824,8 +6878,8 @@
             "_label_class95",
             95
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6855,7 +6909,7 @@
             "_label_class89",
             89
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6885,7 +6939,7 @@
             "_label_class86",
             86
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6915,7 +6969,7 @@
             "_label_class85",
             85
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6945,7 +6999,7 @@
             "_label_class76",
             76
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -6975,7 +7029,7 @@
             "_label_class66",
             66
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7005,8 +7059,8 @@
             "_label_class53",
             53
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7040,8 +7094,8 @@
             "_label_class54",
             54
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7071,8 +7125,8 @@
             "_label_class100",
             100
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7102,7 +7156,7 @@
             "_label_class90",
             90
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7132,7 +7186,7 @@
             "_label_class77",
             77
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7162,7 +7216,7 @@
             "_label_class67",
             67
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7192,8 +7246,8 @@
             "_label_class55",
             55
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7223,7 +7277,7 @@
             "_label_class78",
             78
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7253,7 +7307,7 @@
             "_label_class68",
             68
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7283,8 +7337,8 @@
             "_label_class56",
             56
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7314,8 +7368,8 @@
             "_label_class101",
             101
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7345,7 +7399,7 @@
             "_label_class91",
             91
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7375,7 +7429,7 @@
             "_label_class69",
             69
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7409,8 +7463,8 @@
             "_label_class57",
             57
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7440,14 +7494,14 @@
             "_label_class92",
             92
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
             ],
             "text-size":11,
-            "text-anchor":"center",
+            "text-anchor":"bottom",
             "text-offset":[
                0.117647,
                0
@@ -7475,7 +7529,7 @@
             "_label_class82",
             82
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7509,7 +7563,7 @@
             "_label_class60",
             60
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7543,8 +7597,8 @@
             "_label_class58",
             58
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7574,7 +7628,7 @@
             "_label_class75",
             75
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7604,8 +7658,8 @@
             "_label_class98",
             98
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7635,7 +7689,7 @@
             "_label_class88",
             88
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7665,8 +7719,8 @@
             "_label_class59",
             59
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7696,7 +7750,7 @@
             "_label_class65",
             65
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7726,8 +7780,8 @@
             "_label_class52",
             52
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7757,8 +7811,8 @@
             "_label_class50",
             50
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7792,7 +7846,7 @@
             "_label_class40",
             40
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7826,7 +7880,7 @@
             "_label_class43",
             43
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7860,7 +7914,7 @@
             "_label_class44",
             44
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7890,7 +7944,7 @@
             "_label_class45",
             45
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7920,7 +7974,7 @@
             "_label_class46",
             46
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7950,7 +8004,7 @@
             "_label_class47",
             47
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -7980,7 +8034,7 @@
             "_label_class48",
             48
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8010,7 +8064,7 @@
             "_label_class49",
             49
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8040,8 +8094,8 @@
             "_label_class51",
             51
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8071,7 +8125,7 @@
             "_label_class42",
             42
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8101,7 +8155,7 @@
             "_label_class80",
             80
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Light"
@@ -8131,8 +8185,8 @@
             "_label_class94",
             94
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8162,7 +8216,7 @@
             "_label_class84",
             84
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8192,8 +8246,8 @@
             "_label_class93",
             93
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8223,7 +8277,7 @@
             "_label_class83",
             83
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8253,7 +8307,7 @@
             "_label_class71",
             71
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8283,7 +8337,7 @@
             "_label_class63",
             63
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8313,7 +8367,7 @@
             "_label_class62",
             62
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8343,7 +8397,7 @@
             "_label_class41",
             41
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8373,7 +8427,7 @@
             "_label_class70",
             70
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8403,7 +8457,7 @@
             "_label_class81",
             81
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Light"
@@ -8433,7 +8487,7 @@
             "_label_class32",
             32
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8463,7 +8517,7 @@
             "_label_class39",
             39
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8493,7 +8547,7 @@
             "_label_class38",
             38
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8523,7 +8577,7 @@
             "_label_class37",
             37
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8553,7 +8607,7 @@
             "_label_class36",
             36
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8583,7 +8637,7 @@
             "_label_class35",
             35
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8613,7 +8667,7 @@
             "_label_class34",
             34
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8643,7 +8697,7 @@
             "_label_class33",
             33
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8677,7 +8731,7 @@
             "_label_class30",
             30
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8711,7 +8765,7 @@
             "_label_class31",
             31
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Times New Roman Italic"
@@ -8741,12 +8795,12 @@
             "_label_class20",
             20
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
             ],
-            "text-size":13,
+            "text-size":12,
             "text-anchor":"center",
             "text-offset":[
                0.103093,
@@ -8775,12 +8829,12 @@
             "_label_class21",
             21
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
             ],
-            "text-size":13,
+            "text-size":12,
             "text-anchor":"right",
             "text-rotate":{
                "property":"_label_angle21",
@@ -8805,7 +8859,7 @@
             "_label_class22",
             22
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8835,7 +8889,7 @@
             "_label_class23",
             23
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8869,7 +8923,7 @@
             "_label_class24",
             24
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8899,7 +8953,7 @@
             "_label_class25",
             25
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8929,7 +8983,7 @@
             "_label_class26",
             26
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8959,7 +9013,7 @@
             "_label_class27",
             27
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -8989,7 +9043,7 @@
             "_label_class28",
             28
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9019,7 +9073,7 @@
             "_label_class29",
             29
          ],
-         "minzoom":12,
+         "minzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9049,8 +9103,8 @@
             "_label_class12",
             12
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9080,7 +9134,7 @@
             "_label_class2",
             2
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9110,8 +9164,8 @@
             "_label_class11",
             11
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9141,7 +9195,7 @@
             "_label_class1",
             1
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9171,8 +9225,8 @@
             "_label_class10",
             10
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9206,7 +9260,7 @@
             "_label_class",
             0
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9240,8 +9294,8 @@
             "_label_class17",
             17
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9271,7 +9325,7 @@
             "_label_class7",
             7
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9301,8 +9355,8 @@
             "_label_class19",
             19
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9332,7 +9386,7 @@
             "_label_class9",
             9
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9362,8 +9416,8 @@
             "_label_class18",
             18
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9393,7 +9447,7 @@
             "_label_class8",
             8
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9423,8 +9477,8 @@
             "_label_class16",
             16
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9454,7 +9508,7 @@
             "_label_class6",
             6
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9484,13 +9538,13 @@
             "_label_class15",
             15
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
             ],
-            "text-size":10.5,
+            "text-size":10,
             "text-anchor":"top-right",
             "text-rotate":{
                "property":"_label_angle15",
@@ -9515,7 +9569,7 @@
             "_label_class5",
             5
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9545,8 +9599,8 @@
             "_label_class14",
             14
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9576,7 +9630,7 @@
             "_label_class4",
             4
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9606,8 +9660,8 @@
             "_label_class13",
             13
          ],
-         "minzoom":12,
-         "maxzoom":13,
+         "minzoom":16,
+         "maxzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9641,7 +9695,7 @@
             "_label_class3",
             3
          ],
-         "minzoom":13,
+         "minzoom":17,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -9675,8 +9729,8 @@
             "_label_class",
             14
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -9703,8 +9757,8 @@
             "_label_class",
             15
          ],
-         "minzoom":8,
-         "maxzoom":9,
+         "minzoom":12,
+         "maxzoom":13,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -9731,8 +9785,8 @@
             "_label_class",
             12
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -9759,8 +9813,8 @@
             "_label_class",
             13
          ],
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -9782,8 +9836,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Greenspace:1",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Greenspace:1",
             "icon-allow-overlap":true,
@@ -9808,8 +9862,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Sites",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Sites",
             "icon-allow-overlap":true,
@@ -9834,8 +9888,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Landform:1",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Landform:1",
             "icon-allow-overlap":true,
@@ -9859,8 +9913,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Landform:2",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Landform:2",
             "icon-allow-overlap":true,
@@ -9884,8 +9938,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Landcover:3",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Landcover:3",
             "icon-allow-overlap":true,
@@ -9909,8 +9963,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Landcover:2",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Landcover:2",
             "icon-allow-overlap":true,
@@ -9934,8 +9988,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Water:2",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Water:2",
             "icon-allow-overlap":true,
@@ -9959,8 +10013,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Water:1",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Water:1",
             "icon-allow-overlap":true,
@@ -9984,8 +10038,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Woodland:2",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Woodland:2",
             "icon-allow-overlap":true,
@@ -10009,8 +10063,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Woodland:1",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Woodland:1",
             "icon-allow-overlap":true,
@@ -10039,8 +10093,8 @@
             "_label_class",
             7
          ],
-         "minzoom":10,
-         "maxzoom":12,
+         "minzoom":14,
+         "maxzoom":16,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10068,8 +10122,8 @@
             "_label_class",
             8
          ],
-         "minzoom":9,
-         "maxzoom":10,
+         "minzoom":13,
+         "maxzoom":14,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10097,8 +10151,8 @@
             "_label_class",
             9
          ],
-         "minzoom":5,
-         "maxzoom":9,
+         "minzoom":9,
+         "maxzoom":13,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10126,8 +10180,8 @@
             "_label_class",
             10
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10154,8 +10208,8 @@
             "_label_class",
             11
          ],
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10182,8 +10236,8 @@
             "_label_class1",
             1
          ],
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -10262,8 +10316,8 @@
             "_label_class",
             0
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -10337,8 +10391,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Small Settlement",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Small Settlement",
             "icon-allow-overlap":true,
@@ -10362,8 +10416,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Landcover:1",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/Landcover:1",
             "icon-allow-overlap":true,
@@ -10379,7 +10433,7 @@
             "icon-color":"rgba(255,0,0,0)",
             "text-color":"#AF9031",
             "text-halo-color":"#F5F5F0",
-            "text-halo-width":0.75
+            "text-halo-width":0.7
          }
       },
       {
@@ -10387,8 +10441,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Hamlet (Local)",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Hamlet (Local)",
             "icon-allow-overlap":true,
@@ -10412,8 +10466,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Hamlet:2",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Hamlet:2",
             "icon-allow-overlap":true,
@@ -10437,8 +10491,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Hamlet:1",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/Hamlet:1",
             "icon-allow-overlap":true,
@@ -10462,8 +10516,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Suburban Area:3",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Suburban Area:3",
             "icon-allow-overlap":true,
@@ -10487,8 +10541,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Suburban Area:1",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/Suburban Area:1",
             "icon-allow-overlap":true,
@@ -10512,8 +10566,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Suburban Area:2",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Suburban Area:2",
             "icon-allow-overlap":true,
@@ -10542,8 +10596,8 @@
             "_label_class",
             3
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10571,8 +10625,8 @@
             "_label_class",
             4
          ],
-         "minzoom":6,
-         "maxzoom":9,
+         "minzoom":10,
+         "maxzoom":13,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10600,8 +10654,8 @@
             "_label_class",
             5
          ],
-         "minzoom":4,
-         "maxzoom":6,
+         "minzoom":8,
+         "maxzoom":10,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10629,8 +10683,8 @@
             "_label_class",
             6
          ],
-         "minzoom":8,
-         "maxzoom":12,
+         "minzoom":12,
+         "maxzoom":16,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10653,15 +10707,15 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Village:2",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Village:2",
             "icon-allow-overlap":true,
             "text-font":[
                "Source Sans Pro Regular"
             ],
-            "text-size":16.5,
+            "text-size":16,
             "text-anchor":"center",
             "text-field":"{_name}",
             "text-optional":true
@@ -10670,7 +10724,7 @@
             "icon-color":"rgba(255,0,0,0)",
             "text-color":"#655314",
             "text-halo-color":"#F5F5F0",
-            "text-halo-width":1.8
+            "text-halo-width":1
          }
       },
       {
@@ -10678,8 +10732,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Village:3",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Village:3",
             "icon-allow-overlap":true,
@@ -10695,7 +10749,7 @@
             "icon-color":"rgba(255,0,0,0)",
             "text-color":"#655314",
             "text-halo-color":"#F5F5F0",
-            "text-halo-width":1.8
+            "text-halo-width":1
          }
       },
       {
@@ -10703,8 +10757,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Village:1",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/Village:1",
             "icon-allow-overlap":true,
@@ -10720,7 +10774,7 @@
             "icon-color":"rgba(255,0,0,0)",
             "text-color":"#655314",
             "text-halo-color":"#F5F5F0",
-            "text-halo-width":1.1
+            "text-halo-width":1
          }
       },
       {
@@ -10733,8 +10787,8 @@
             "_label_class",
             0
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10762,8 +10816,8 @@
             "_label_class",
             1
          ],
-         "minzoom":6,
-         "maxzoom":9,
+         "minzoom":10,
+         "maxzoom":13,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10791,8 +10845,8 @@
             "_label_class",
             2
          ],
-         "minzoom":2,
-         "maxzoom":6,
+         "minzoom":6,
+         "maxzoom":10,
          "layout":{
             "symbol-placement":"line",
             "symbol-spacing":1000,
@@ -10820,8 +10874,8 @@
             "_label_class1",
             1
          ],
-         "minzoom":6,
-         "maxzoom":9,
+         "minzoom":10,
+         "maxzoom":13,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -10851,8 +10905,8 @@
             "_label_class",
             0
          ],
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "text-font":[
                "Source Sans Pro Regular"
@@ -10877,15 +10931,15 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"National Park:3",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/National Park:3",
             "icon-allow-overlap":true,
             "text-font":[
                "Source Sans Pro Regular"
             ],
-            "text-size":14.5,
+            "text-size":14,
             "text-anchor":"center",
             "text-field":"{_name}",
             "text-optional":true
@@ -10902,8 +10956,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Motorway Junctions",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Motorway Junctions",
             "icon-allow-overlap":true,
@@ -10927,8 +10981,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Town:4",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Town:4",
             "icon-allow-overlap":true,
@@ -10944,7 +10998,7 @@
             "icon-color":"rgba(255,0,0,0)",
             "text-color":"#372D0B",
             "text-halo-color":"#F5F5F0",
-            "text-halo-width":2.2
+            "text-halo-width":2
          }
       },
       {
@@ -10952,15 +11006,15 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Town:1",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Town:1",
             "icon-allow-overlap":true,
             "text-font":[
                "Source Sans Pro Regular"
             ],
-            "text-size":16.5,
+            "text-size":16,
             "text-anchor":"center",
             "text-field":"{_name}",
             "text-optional":true
@@ -10977,8 +11031,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Town:2",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/Town:2",
             "icon-allow-overlap":true,
@@ -11002,7 +11056,7 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Town:3",
-         "maxzoom":5,
+         "maxzoom":9,
          "layout":{
             "icon-image":"OS/Names/National/Town:3",
             "icon-allow-overlap":true,
@@ -11026,15 +11080,15 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"National Park:2",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/National Park:2",
             "icon-allow-overlap":true,
             "text-font":[
                "Source Sans Pro Regular"
             ],
-            "text-size":14.5,
+            "text-size":14,
             "text-anchor":"center",
             "text-field":"{_name}",
             "text-allow-overlap":true,
@@ -11052,7 +11106,7 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"National Park:1",
-         "maxzoom":5,
+         "maxzoom":9,
          "layout":{
             "icon-image":"OS/Names/National/National Park:1",
             "icon-allow-overlap":true,
@@ -11076,8 +11130,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"City:3",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/City:3",
             "icon-allow-overlap":true,
@@ -11101,8 +11155,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"City:4",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/City:4",
             "icon-allow-overlap":true,
@@ -11118,7 +11172,7 @@
             "icon-color":"rgba(255,0,0,0)",
             "text-color":"#342A07",
             "text-halo-color":"#F5F5F0",
-            "text-halo-width":2.2
+            "text-halo-width":2
          }
       },
       {
@@ -11126,8 +11180,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"City:1",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/City:1",
             "icon-allow-overlap":true,
@@ -11152,7 +11206,7 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"City:2",
-         "maxzoom":5,
+         "maxzoom":9,
          "layout":{
             "icon-image":"OS/Names/National/City:2",
             "icon-allow-overlap":true,
@@ -11176,8 +11230,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Capital:3",
-         "minzoom":9,
-         "maxzoom":12,
+         "minzoom":13,
+         "maxzoom":16,
          "layout":{
             "icon-image":"OS/Names/Local/Capital:3",
             "icon-allow-overlap":true,
@@ -11201,8 +11255,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Capital:4",
-         "minzoom":7,
-         "maxzoom":9,
+         "minzoom":11,
+         "maxzoom":13,
          "layout":{
             "icon-image":"OS/Names/District/Capital:4",
             "icon-allow-overlap":true,
@@ -11226,8 +11280,8 @@
          "type":"symbol",
          "source":"esri",
          "source-layer":"Capital:2",
-         "minzoom":5,
-         "maxzoom":7,
+         "minzoom":9,
+         "maxzoom":11,
          "layout":{
             "icon-image":"OS/Names/Regional/Capital:2",
             "icon-allow-overlap":true,
@@ -11256,8 +11310,8 @@
             "_label_class",
             0
          ],
-         "minzoom":1,
-         "maxzoom":5,
+         "minzoom":5,
+         "maxzoom":9,
          "layout":{
             "text-font":[
                "Source Sans Pro Semibold"
@@ -11283,8 +11337,8 @@
             "_label_class",
             0
          ],
-         "minzoom":1,
-         "maxzoom":5,
+         "minzoom":5,
+         "maxzoom":9,
          "layout":{
             "text-font":[
                "Source Sans Pro Semibold"
@@ -11312,7 +11366,7 @@
             "_label_class1",
             1
          ],
-         "maxzoom":1,
+         "maxzoom":5,
          "layout":{
             "text-font":[
                "Source Sans Pro Semibold"
@@ -11340,7 +11394,7 @@
             "_label_class1",
             1
          ],
-         "maxzoom":1,
+         "maxzoom":5,
          "layout":{
             "text-font":[
                "Source Sans Pro Semibold"
