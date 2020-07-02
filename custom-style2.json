@@ -6381,11 +6381,11 @@
                             [ "linear" ],
                             [ "zoom" ],
                             16,
-                            0,
+                            [ "get", "RelHMax" ],
                             16.05,
                             [ "get", "RelHMax" ]
                         ],
-                        "fill-extrusion-opacity": 0.7
+                        "fill-extrusion-opacity": 0.6
               }
         },
         {
