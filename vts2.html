@@ -28,7 +28,7 @@
     map = new mapboxgl.Map({
         container: 'map',
         minZoom: 6,
-        maxZoom: 18,
+        maxZoom: 19,
         style: customStyleJson,
         center: [ -2.968, 54.425 ],
         zoom: 13,
@@ -40,8 +40,8 @@
         }
     });
 
-    map.dragRotate.disable(); // Disable map rotation using right click + drag.
-    map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
+    // map.dragRotate.disable(); // Disable map rotation using right click + drag.
+    // map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
 
     // Add navigation control (excluding compass button) to the map.
     map.addControl(new mapboxgl.NavigationControl({
