@@ -1,83 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>OS Vector Tile API | Example Custom Style | ArcGIS API for JavaScript</title>
+<head>
+    <title>OS Vector Tile API | Example Custom Style | Mapbox GL JS</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.css" />
-    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css">
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" />
     <style>
-      html,
-      body,
-      #viewDiv {
-        padding: 0;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-      }
-      .esri-view .esri-view-surface--inset-outline:focus::after {
-        outline: 0 !important;
-      }
-      .esri-ui .esri-attribution {
-        display: none;
-      }
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        :focus { outline: none; }
     </style>
+</head>
+<body>
 
-    <script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js" data-div="viewDiv" data-prefix="Powered by Esri"></script>
-    <script src="https://js.arcgis.com/4.14/"></script>
-    <script>
+<div id="map"></div>
 
-        var apiKey = 'asqMFGj4Kjr76hLWPD2JI69BqQTmAATs';
+<script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+<script>
 
-        var serviceUrl = 'https://osdatahubapi.os.uk/OSVectorTileAPI/vts/v1';
+    var apiKey = 'Ks1tYDGmOdzVdjPZaymQXA6F6OH5Jg2s';
 
-        var customStyleJson = 'https://raw.githubusercontent.com/charleyglynn/charleyglynn.github.io/master/custom-style2.json';
+    var customStyleJson = 'https://raw.githubusercontent.com/charleyglynn/charleyglynn.github.io/master/custom-style2.json';
 
-        var map, view;
+    // Initialize the map object.
+    map = new mapboxgl.Map({
+        container: 'map',
+        minZoom: 6,
+        maxZoom: 15,
+        style: customStyleJson,
+        center: [ -2.968, 54.425 ],
+        zoom: 13,
+        transformRequest: url => {
+            if(! /[?&]key=/.test(url) ) url += '?key=' + apiKey
+            return {
+                url: url + '&srs=3857'
+            }
+        }
+    });
 
-        require([
-            "esri/Map",
-            "esri/views/MapView",
-            "esri/layers/VectorTileLayer",
-            "esri/config",
-            "dojo/domReady!"
-        ], function(Map, MapView, VectorTileLayer, esriConfig) {
-            // Add the 'key' and 'srs' options to the request URL before it is sent.
-            esriConfig.request.interceptors.push({
-                urls: serviceUrl,
-                before: function(params) {
-                    if(! params.requestOptions.query ) {
-                        params.requestOptions.query = {};
-                    }
-                    params.requestOptions.query.key = apiKey;
-                    params.requestOptions.query.srs = 3857;
-                }
-            });
+    map.dragRotate.disable(); // Disable map rotation using right click + drag.
+    map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
 
-            var tileLayer = new VectorTileLayer({
-                url: customStyleJson
-            });
+    // Add navigation control (excluding compass button) to the map.
+    map.addControl(new mapboxgl.NavigationControl({
+        showCompass: false
+    }));
 
-            map = new Map({
-                layers: [ tileLayer ]
-            });
+</script>
 
-            view = new MapView({
-                container: "viewDiv",
-                map: map,
-                zoom: 13,
-                center: [ -2.968, 54.425 ],
-                constraints: {
-                    minZoom: 6,
-                    maxZoom: 19,
-                    rotationEnabled: true
-                }
-            });
-        });
-
-    </script>
-  </head>
-  <body>
-    <div id="viewDiv"></div>
-  </body>
+</body>
 </html>
