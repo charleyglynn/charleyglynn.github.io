@@ -10146,7 +10146,7 @@
                     "Source Sans Pro Regular"
                 ],
                 "text-size": 12,
-                "text-anchor": "bottom",
+                "text-anchor": "top",
                 "text-offset": {
                     "property": "_symbol",
                     "type": "categorical",
@@ -10226,7 +10226,7 @@
                     "Source Sans Pro Regular"
                 ],
                 "text-size": 13,
-                "text-anchor": "bottom",
+                "text-anchor": "top",
                 "text-offset": {
                     "property": "_symbol",
                     "type": "categorical",
@@ -10784,7 +10784,7 @@
                     "Source Sans Pro Regular"
                 ],
                 "text-size": 12.5,
-                "text-anchor": "bottom",
+                "text-anchor": "top",
                 "text-offset": [
                     0,
                     0.582306
