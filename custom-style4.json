@@ -6422,6 +6422,7 @@
                 "text-field": "{_name64}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -6609,6 +6610,7 @@
                 "text-field": "{_name61}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -6860,6 +6862,7 @@
                 "text-field": "{_name66}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -7053,6 +7056,7 @@
                 "text-field": "{_name67}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -7147,6 +7151,7 @@
                 "text-field": "{_name68}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -7415,6 +7420,7 @@
                 "text-field": "{_name60}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -7604,6 +7610,7 @@
                 "text-field": "{_name65}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -8210,6 +8217,7 @@
                 "text-field": "{_name63}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
@@ -8241,6 +8249,7 @@
                 "text-field": "{_name62}",
                 "text-allow-overlap": true,
                 "text-optional": true,
+                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
