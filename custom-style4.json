@@ -7927,7 +7927,10 @@
                 ],
                 "text-size": 14,
                 "text-anchor": "left",
-                "text-rotate": ["get", "_label_angle51"],
+                "text-rotate": [
+                    "get",
+                    "_label_angle51"
+                ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name51}",
                 "text-allow-overlap": true,
