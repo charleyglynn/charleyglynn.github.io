@@ -7929,7 +7929,7 @@
                 "text-anchor": "left",
                 "text-rotate": [
                     "get",
-                    "_label_angle51", "-", 180
+                    "_label_angle51", '-', 180
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name51}",
