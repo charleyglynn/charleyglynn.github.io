@@ -7935,7 +7935,6 @@
                 "text-field": "{_name51}",
                 "text-allow-overlap": true,
                 "text-optional": true,
-                "text-keep-upright": true,
                 "text-rotation-alignment": "map"
             },
             "paint": {
