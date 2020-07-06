@@ -6227,42 +6227,6 @@
             }
         },
         {
-            "id": "OS/CartographicSymbol/Direction Of Flow Symbol",
-            "type": "symbol",
-            "source": "esri",
-            "source-layer": "CartographicSymbol",
-            "filter": [
-                "==",
-                "_symbol",
-                1
-            ],
-            "minzoom": 17,
-            "layout": {
-                "icon-image": "OS/CartographicSymbol/Direction Of Flow Symbol",
-                "icon-size": {
-                    "stops": [
-                        [
-                            18,
-                            1
-                        ],
-                        [
-                            19,
-                            1.5
-                        ]
-                    ]
-                },
-                "icon-rotate": [
-                    "get",
-                    "angle"
-                ],
-                "icon-allow-overlap": true,
-                "icon-rotation-alignment": "map"
-            },
-            "paint": {
-                "icon-color": "#318FAE"
-            }
-        },
-        {
             "id": "OS/CartographicSymbol/Bench Mark Symbol",
             "type": "symbol",
             "source": "esri",
