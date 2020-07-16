@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.css" />
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        :focus {
+            outline: none;
+        }
+
+        #features {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 24px;
+            width: 24%;
+            overflow: auto;
+            background: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+    <pre id="features"></pre>
+
+    <script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <script>
+
+        var apiKey = prompt("Please enter your OS Data Hub API key:", "xxx");
+
+        var osVectorTileServiceUrl = 'https://api.os.uk/maps/vector/v1/vts',
+            bndyVectorTileServiceUrl = 'https://api.os.uk/maps/vector/v1/vts/boundaries';
+
+        // Initialize the map object.
+        map = new mapboxgl.Map({
+            container: 'map',
+            minZoom: 6,
+            maxZoom: 18,
+            style: osVectorTileServiceUrl + '/resources/styles?key=' + apiKey,
+            center: [-1.485, 52.567],
+            zoom: 7,
+            transformRequest: url => {
+                if (url.includes(osVectorTileServiceUrl))
+                    return {
+                        url: url + '&srs=3857'
+                    }
+            }
+        });
+
+        map.dragRotate.disable(); // Disable map rotation using right click + drag.
+        map.touchZoomRotate.disableRotation(); // Disable map rotation using touch rotation gesture.
+
+        // Add navigation control (excluding compass button) to the map.
+        map.addControl(new mapboxgl.NavigationControl({
+            showCompass: false
+        }));
+
+        map.on('load', function () {
+
+            map.addSource("test", {
+                "type": "vector",
+                "tiles": [bndyVectorTileServiceUrl + "/tile/{z}/{y}/{x}.pbf?key=" + apiKey],
+            });
+
+            map.addLayer({
+                "id": "boundaries-layer",
+                "type": "fill",
+                "source": "test",
+                "source-layer": "Boundary_line",
+                "layout": {},
+                "paint": {
+                    "fill-color": "rgba(175, 88, 186, 0.1)",
+                    "fill-outline-color": "rgba(175, 88, 186, 1)"
+                },
+                // "filter": [
+                //     "==",
+                //     "AREA_CODE",
+                //     "CTY"
+                // ]
+            });
+        });
+
+        // Add click event handler.
+        map.on('click', function (e) {
+            var uniqueArray = a => [...new Set(a.map(o => JSON.stringify(o)))].map(s => JSON.parse(s));
+
+            var features = map.queryRenderedFeatures(e.point);
+
+            var displayProperties = [
+                'type',
+                'properties',
+                'layer',
+                'sourceLayer'
+            ];
+
+            var displayFeatures = features.map(function (feat) {
+                var displayFeat = {};
+                displayProperties.forEach(function (prop) {
+                    displayFeat[prop] = feat[prop];
+                });
+                return displayFeat;
+            });
+
+            displayFeatures = uniqueArray(displayFeatures);
+
+            document.getElementById('features').innerHTML = JSON.stringify(
+                displayFeatures,
+                null,
+                2
+            );
+        });
+    </script>
+
+</body>
+
+</html>
