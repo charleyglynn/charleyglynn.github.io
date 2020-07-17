@@ -21,7 +21,6 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "Background",
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
@@ -32,7 +31,6 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "European_land",
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#FAFAF3"
@@ -43,7 +41,6 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "GB_land",
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
@@ -107,7 +104,6 @@
                 0
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#E6E6E6",
@@ -125,7 +121,6 @@
                 1
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#F7EACA",
@@ -143,7 +138,6 @@
                 2
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#F3D8E7",
@@ -161,7 +155,6 @@
                 3
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#F7F3CA",
@@ -179,7 +172,6 @@
                 4
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#D8E6F3",
@@ -192,7 +184,6 @@
             "source": "esri",
             "source-layer": "Greenspace:2",
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#E3F0DB"
@@ -204,7 +195,6 @@
             "source": "esri",
             "source-layer": "Greenspace:2",
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -252,7 +242,6 @@
                 0
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
@@ -310,7 +299,6 @@
             "source": "esri",
             "source-layer": "Local_buildings",
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#DCD7C6"
@@ -327,7 +315,6 @@
                 0
             ],
             "minzoom": 7,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -387,7 +374,6 @@
                 1
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -428,7 +414,6 @@
                 0
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF",
@@ -475,7 +460,6 @@
             "source": "esri",
             "source-layer": "Foreshore",
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#EAEAD2"
@@ -487,7 +471,6 @@
             "source": "esri",
             "source-layer": "Ornament",
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#BABABA",
@@ -526,7 +509,6 @@
                 1
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -547,7 +529,6 @@
                 1
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -568,7 +549,6 @@
                 2
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -610,7 +590,6 @@
                 3
             ],
             "minzoom": 10,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -715,7 +694,6 @@
                 19
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "line-color": "#949197",
@@ -773,7 +751,6 @@
                 0
             ],
             "minzoom": 7,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -853,7 +830,6 @@
                 3
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -944,7 +920,6 @@
                 6
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -999,7 +974,6 @@
                 8
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1050,7 +1024,6 @@
                 10
             ],
             "minzoom": 10,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1097,7 +1070,6 @@
                 13
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1133,7 +1105,6 @@
                 15
             ],
             "minzoom": 13,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1169,7 +1140,6 @@
                 17
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1209,7 +1179,6 @@
                 6
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1264,7 +1233,6 @@
                 8
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1315,7 +1283,6 @@
                 10
             ],
             "minzoom": 10,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1362,7 +1329,6 @@
                 13
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1398,7 +1364,6 @@
                 15
             ],
             "minzoom": 13,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1434,7 +1399,6 @@
                 17
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1474,7 +1438,6 @@
                 0
             ],
             "minzoom": 7,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1533,7 +1496,6 @@
                 3
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1589,7 +1551,6 @@
                 1
             ],
             "minzoom": 7,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1669,7 +1630,6 @@
                 4
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1760,7 +1720,6 @@
                 7
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1836,7 +1795,6 @@
                 9
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1887,7 +1845,6 @@
                 11
             ],
             "minzoom": 10,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -1934,7 +1891,6 @@
                 14
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -1970,7 +1926,6 @@
                 16
             ],
             "minzoom": 13,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2006,7 +1961,6 @@
                 18
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2046,7 +2000,6 @@
                 7
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2101,7 +2054,6 @@
                 9
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2152,7 +2104,6 @@
                 11
             ],
             "minzoom": 10,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2199,7 +2150,6 @@
                 14
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2235,7 +2185,6 @@
                 16
             ],
             "minzoom": 13,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2271,7 +2220,6 @@
                 18
             ],
             "minzoom": 12,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2311,7 +2259,6 @@
                 1
             ],
             "minzoom": 7,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2370,7 +2317,6 @@
                 4
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2426,7 +2372,6 @@
                 2
             ],
             "minzoom": 7,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2506,7 +2451,6 @@
                 5
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2597,7 +2541,6 @@
                 12
             ],
             "minzoom": 10,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2644,7 +2587,6 @@
                 2
             ],
             "minzoom": 7,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2703,7 +2645,6 @@
                 5
             ],
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2759,7 +2700,6 @@
                 12
             ],
             "minzoom": 10,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -2806,7 +2746,6 @@
                 0
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2854,7 +2793,6 @@
                 1
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2894,7 +2832,6 @@
                 2
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -2942,7 +2879,6 @@
                 3
             ],
             "minzoom": 9,
-            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "line-color": "#949197",
@@ -2986,7 +2922,6 @@
             "source": "esri",
             "source-layer": "ETL",
             "minzoom": 13,
-            "maxzoom": 15,
             "layout": {
                 "line-join": "round"
             },
@@ -3026,7 +2961,6 @@
                 0
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {
                 "icon-image": "OS/Railway_stations/Light Rapid Transit Station",
                 "icon-size": {
@@ -3064,7 +2998,6 @@
                 1
             ],
             "minzoom": 13,
-            "maxzoom": 15,
             "layout": {
                 "icon-image": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
                 "icon-size": {
@@ -3120,7 +3053,6 @@
                 2
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {
                 "icon-image": "OS/Railway_stations/Light Rapid Transit Station And Railway Station",
                 "icon-size": {
@@ -3158,7 +3090,6 @@
                 3
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {
                 "icon-image": "OS/Railway_stations/London Underground Station",
                 "icon-size": {
@@ -3196,7 +3127,6 @@
                 4
             ],
             "minzoom": 11,
-            "maxzoom": 15,
             "layout": {
                 "icon-image": "OS/Railway_stations/Railway Station",
                 "icon-size": {
@@ -3234,7 +3164,6 @@
                 5
             ],
             "minzoom": 13,
-            "maxzoom": 15,
             "layout": {
                 "icon-image": "OS/Railway_stations/Railway Station And London Underground Station",
                 "icon-size": {
@@ -3285,7 +3214,6 @@
             "source": "esri",
             "source-layer": "Airports",
             "minzoom": 8,
-            "maxzoom": 15,
             "layout": {
                 "icon-image": "OS/Airports",
                 "icon-size": {
