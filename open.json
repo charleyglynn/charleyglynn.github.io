@@ -21,6 +21,7 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "Background",
+            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
@@ -42,6 +43,7 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "GB_land",
+            "maxzoom": 15,
             "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
