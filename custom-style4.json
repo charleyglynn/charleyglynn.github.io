@@ -8049,10 +8049,7 @@
                 ],
                 "text-size": 11,
                 "text-anchor": "left",
-                "text-rotate": [
-                    "get",
-                    "_label_angle93"
-                ],
+                "text-rotate": ["-", 180, ["get", "_label_angle93"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name93}",
                 "text-allow-overlap": true,
