@@ -8017,10 +8017,7 @@
                 ],
                 "text-size": 13,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle84"
-                ],
+                "text-rotate": ["-", 180, ["get", "_label_angle84"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name84}",
                 "text-allow-overlap": true,
@@ -8049,7 +8046,10 @@
                 ],
                 "text-size": 11,
                 "text-anchor": "left",
-                "text-rotate": ["-", 180, ["get", "_label_angle93"]],
+                "text-rotate": [
+                    "get",
+                    "_label_angle93"
+                ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name93}",
                 "text-allow-overlap": true,
@@ -8077,7 +8077,10 @@
                 ],
                 "text-size": 13,
                 "text-anchor": "left",
-                "text-rotate": ["-", 180, ["get", "_label_angle83"]],
+                "text-rotate": [
+                    "get",
+                    "_label_angle83"
+                ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name83}",
                 "text-allow-overlap": true,
@@ -8105,10 +8108,7 @@
                 ],
                 "text-size": 13,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle71"
-                ],
+                "text-rotate": ["-", 180, ["get", "_label_angle71"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name71}",
                 "text-allow-overlap": true,
