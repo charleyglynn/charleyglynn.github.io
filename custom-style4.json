@@ -7986,10 +7986,7 @@
                 ],
                 "text-size": 11,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle94"
-                ],
+                "text-rotate": ["-", 360, ["get", "_label_angle94"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name94}",
                 "text-allow-overlap": true,
