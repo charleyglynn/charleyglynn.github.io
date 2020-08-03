@@ -8099,7 +8099,7 @@
                 ],
                 "text-size": 13,
                 "text-anchor": "right",
-                "text-rotate": ["-", 360, ["get", "_label_angle71"]],
+                "text-rotate": ["+", 180, ["get", "_label_angle71"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name71}",
                 "text-allow-overlap": true,
@@ -8245,10 +8245,7 @@
                 ],
                 "text-size": 12.4,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle81"
-                ],
+                "text-rotate": ["+", 180, ["get", "_label_angle81"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name81}",
                 "text-allow-overlap": true,
@@ -8276,10 +8273,7 @@
                 ],
                 "text-size": 14,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle32"
-                ],
+                "text-rotate": ["+", 180, ["get", "_label_angle32"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name32}",
                 "text-allow-overlap": true,
@@ -8660,10 +8654,7 @@
                 ],
                 "text-size": 13,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle22"
-                ],
+                "text-rotate": ["+", 180, ["get", "_label_angle22"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name22}",
                 "text-allow-overlap": true,
@@ -8913,10 +8904,7 @@
                 ],
                 "text-size": 11,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle12"
-                ],
+                "text-rotate": ["+", 180, ["get", "_label_angle12"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name12}",
                 "text-allow-overlap": true,
@@ -8944,10 +8932,7 @@
                 ],
                 "text-size": 13,
                 "text-anchor": "right",
-                "text-rotate": [
-                    "get",
-                    "_label_angle2"
-                ],
+                "text-rotate": ["+", 180, ["get", "_label_angle2"]],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name2}",
                 "text-allow-overlap": true,
