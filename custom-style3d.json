@@ -1655,7 +1655,7 @@
         },
         {
             "id": "OS/TopographicArea_2/Bridge",
-            "type": "fill",
+            "type": "fill-extrusion",
             "source": "esri",
             "source-layer": "TopographicArea_2",
             "filter": [
@@ -2342,7 +2342,7 @@
         },
         {
             "id": "OS/TopographicArea_1/Building/1",
-            "type": "fill",
+            "type": "fill-extrusion",
             "source": "esri",
             "source-layer": "TopographicArea_1",
             "filter": [
