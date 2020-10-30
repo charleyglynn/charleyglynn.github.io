@@ -1646,11 +1646,11 @@
                     [ "linear" ],
                     [ "zoom" ],
                     15,
-                    1,
+                    [ "get", "RelHMax" ],
                     16,
                     [ "get", "RelHMax" ]
                 ],
-                "fill-extrusion-opacity": 0.6
+                "fill-extrusion-opacity": 0.8
             }
         },
         {
@@ -2363,7 +2363,7 @@
                     16.05,
                     [ "get", "RelHMax" ]
                 ],
-                "fill-extrusion-opacity": 0.6
+                "fill-extrusion-opacity": 0.8
             }
         },
         {
