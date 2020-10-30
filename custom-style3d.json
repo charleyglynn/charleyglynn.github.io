@@ -1640,7 +1640,17 @@
             "maxzoom": 16,
             "layout": {},
             "paint": {
-                "fill-color": "#DCD7C6"
+                "fill-extrusion-color": "#DCD7C6",
+                "fill-extrusion-height": [
+                    "interpolate",
+                    [ "linear" ],
+                    [ "zoom" ],
+                    15,
+                    1,
+                    16,
+                    [ "get", "RelHMax" ]
+                ],
+                "fill-extrusion-opacity": 0.8
             }
         },
         {
@@ -2343,7 +2353,17 @@
             "minzoom": 16,
             "layout": {},
             "paint": {
-                "fill-color": "#DCD7C6"
+                "fill-extrusion-color": "#DCD7C6",
+                "fill-extrusion-height": [
+                    "interpolate",
+                    [ "linear" ],
+                    [ "zoom" ],
+                    16,
+                    [ "get", "RelHMax" ],
+                    16.05,
+                    [ "get", "RelHMax" ]
+                ],
+                "fill-extrusion-opacity": 0.8
             }
         },
         {
