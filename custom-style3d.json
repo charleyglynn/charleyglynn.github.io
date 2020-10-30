@@ -1628,7 +1628,7 @@
         },
         {
             "id": "OS/TopographicArea_2/Building/1",
-            "type": "fill",
+            "type": "fill-extrusion",
             "source": "esri",
             "source-layer": "TopographicArea_2",
             "filter": [
@@ -1650,12 +1650,12 @@
                     16,
                     [ "get", "RelHMax" ]
                 ],
-                "fill-extrusion-opacity": 0.8
+                "fill-extrusion-opacity": 0.6
             }
         },
         {
             "id": "OS/TopographicArea_2/Bridge",
-            "type": "fill-extrusion",
+            "type": "fill",
             "source": "esri",
             "source-layer": "TopographicArea_2",
             "filter": [
@@ -2363,7 +2363,7 @@
                     16.05,
                     [ "get", "RelHMax" ]
                 ],
-                "fill-extrusion-opacity": 0.8
+                "fill-extrusion-opacity": 0.6
             }
         },
         {
