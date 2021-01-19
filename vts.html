@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>OS Vector Tile API | Example Custom Style | Mapbox GL JS</title>
+    <title>OS Vector Tile API</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.css" />
-    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" />
+    <link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.2.0/os-api-branding.css" />
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.css" />
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -16,24 +16,23 @@
 
 <div id="map"></div>
 
-<script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js"></script>
-<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+<script src="https://labs.os.uk/public/os-api-branding/v0.2.0/os-api-branding.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
 <script>
 
-    var apiKey = 'ZaDNrSgcPZtme1bLeaSTbBNcUkpOZ7l6';
+    var apiKey = 'SrUGRuBNJ9UgRoI6cdJ0WIzbYJ8n1P91';
 
-    var customStyleJson = 'https://raw.githubusercontent.com/charleyglynn/charleyglynn.github.io/master/custom-style4.json';
+    var serviceUrl = 'https://api.os.uk/maps/vector/v1/vts';
 
     // Initialize the map object.
-    map = new mapboxgl.Map({
+    var map = new mapboxgl.Map({
         container: 'map',
-        minZoom: 6,
-        maxZoom: 20,
-        style: customStyleJson,
+        minZoom: 0,
+        maxZoom: 18,
+        style: serviceUrl + '/resources/styles?key=' + apiKey,
         center: [ -2.968, 54.425 ],
         zoom: 13,
         transformRequest: url => {
-            if(! /[?&]key=/.test(url) ) url += '?key=' + apiKey
             return {
                 url: url + '&srs=3857'
             }
