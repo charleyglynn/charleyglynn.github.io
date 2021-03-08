@@ -4503,7 +4503,7 @@
         "icon-image": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And Railway Station",
