@@ -4739,7 +4739,7 @@
         "icon-allow-overlap": true
       },
       "paint": {
-        "icon-color": "#6A6F73,
+        "icon-color": "#6A6F73",
         "icon-opacity": 0.5
       }
     },
