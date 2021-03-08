@@ -17,16 +17,6 @@
       }
     },
     {
-      "id": "Background",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "Background",
-      "layout": {},
-      "paint": {
-        "fill-color": "#C5CDD0"
-      }
-    },
-    {
       "id": "OS/GB_land/1",
       "type": "fill",
       "source": "esri",
