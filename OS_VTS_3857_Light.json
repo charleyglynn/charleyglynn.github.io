@@ -2926,6 +2926,7 @@
       "layout": {},
       "paint": {
         "line-color": "#4B4444",
+        "line-opacity": 0.4,
         "line-dasharray": [
           4,
           2.5
