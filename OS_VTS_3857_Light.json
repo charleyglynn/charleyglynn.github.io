@@ -1291,7 +1291,8 @@
       "minzoom": 16,
       "layout": {},
       "paint": {
-        "fill-pattern": "OS/TopographicArea_1/Cliff"
+        "fill-pattern": "OS/TopographicArea_1/Cliff",
+        "fill-opacity": 0.4
       }
     },
     {
@@ -1307,7 +1308,8 @@
       "minzoom": 16,
       "layout": {},
       "paint": {
-        "fill-pattern": "OS/TopographicArea_1/Slope"
+        "fill-pattern": "OS/TopographicArea_1/Slope",
+        "fill-opacity": 0.4
       }
     },
     {
