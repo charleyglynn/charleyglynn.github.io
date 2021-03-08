@@ -4400,7 +4400,7 @@
             ]
           ]
         },
-        "line-opacity": 0.5
+        "line-opacity": 0.3
       }
     },
     {
@@ -4443,7 +4443,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
@@ -4485,7 +4485,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
@@ -4545,7 +4545,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Railway_stations/London Underground Station",
@@ -4587,7 +4587,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Railway_stations/Railway Station",
@@ -4629,7 +4629,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Railway_stations/Railway Station And London Underground Station",
@@ -4671,7 +4671,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Railway_stations/Railway Station And London Underground Station_1",
@@ -4689,7 +4689,7 @@
         "icon-image": "OS/Railway_stations/Railway Station And London Underground Station_1",
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.4}
+      "paint": {"icon-opacity": 0.5}
     },
     {
       "id": "OS/Airports",
@@ -4739,7 +4739,8 @@
         "icon-allow-overlap": true
       },
       "paint": {
-        "icon-color": "#6A6F73"
+        "icon-color": "#6A6F73,
+        "icon-opacity": 0.5"
       }
     },
     {
