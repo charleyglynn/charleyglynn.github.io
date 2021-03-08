@@ -4443,9 +4443,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {
-        "icon-opacity": 0.5
-      }
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
@@ -4487,7 +4485,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {}
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
@@ -4505,7 +4503,7 @@
         "icon-image": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
         "icon-allow-overlap": true
       },
-      "paint": {}
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And Railway Station",
@@ -4547,7 +4545,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {}
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Railway_stations/London Underground Station",
@@ -4589,7 +4587,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {}
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Railway_stations/Railway Station",
@@ -4631,7 +4629,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {}
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Railway_stations/Railway Station And London Underground Station",
@@ -4673,7 +4671,7 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {}
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Railway_stations/Railway Station And London Underground Station_1",
@@ -4691,7 +4689,7 @@
         "icon-image": "OS/Railway_stations/Railway Station And London Underground Station_1",
         "icon-allow-overlap": true
       },
-      "paint": {}
+      "paint": {"icon-opacity": 0.4}
     },
     {
       "id": "OS/Airports",
