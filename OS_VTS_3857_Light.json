@@ -582,7 +582,7 @@
       "minzoom": 15,
       "layout": {},
       "paint": {
-        "fill-color": "#E4F3F4"
+        "fill-color": "#E4E5E4"
       }
     },
     {
@@ -662,7 +662,7 @@
       "minzoom": 15,
       "layout": {},
       "paint": {
-        "fill-color": "#e4e5e4"
+        "fill-color": "#E4E5E4"
       }
     },
     {
