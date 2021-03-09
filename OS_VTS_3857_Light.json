@@ -13,7 +13,28 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#C5CDD0"
+        "background-color": "#FEFFFF"
+      }
+    },
+    {
+      "id": "Background",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "Background",
+      "layout": {},
+      "paint": {
+        "fill-color": "#C5CDD0"
+      }
+    },
+    {
+      "id": "European_land/1",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "European_land",
+      "maxzoom": 15,
+      "layout": {},
+      "paint": {
+        "fill-color": "#F1EFEC"
       }
     },
     {
@@ -2928,7 +2949,6 @@
       "layout": {},
       "paint": {
         "line-color": "#4B4444",
-        "line-opacity": 0.4,
         "line-dasharray": [
           4,
           2.5
@@ -2952,7 +2972,8 @@
               1.6
             ]
           ]
-        }
+        },
+        "line-opacity": 0.4
       }
     },
     {
@@ -3032,7 +3053,7 @@
           ]
         }
       }
-    },  
+    },
     {
       "id": "OS/Roads/A Road,0/0",
       "type": "line",
@@ -4446,7 +4467,9 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
@@ -4488,7 +4511,9 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
@@ -4506,7 +4531,9 @@
         "icon-image": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Railway_stations/Light Rapid Transit Station And Railway Station",
@@ -4548,7 +4575,9 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Railway_stations/London Underground Station",
@@ -4590,7 +4619,9 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Railway_stations/Railway Station",
@@ -4632,7 +4663,9 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Railway_stations/Railway Station And London Underground Station",
@@ -4674,7 +4707,9 @@
         },
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Railway_stations/Railway Station And London Underground Station_1",
@@ -4692,7 +4727,9 @@
         "icon-image": "OS/Railway_stations/Railway Station And London Underground Station_1",
         "icon-allow-overlap": true
       },
-      "paint": {"icon-opacity": 0.5}
+      "paint": {
+        "icon-opacity": 0.5
+      }
     },
     {
       "id": "OS/Airports",
