@@ -11173,61 +11173,6 @@
         "text-halo-color": "rgb(244,244,244)",
         "text-halo-width": 1.5
       }
-    },
-    {
-      "id": "OS/Names/National/Capital:1/label/Capital National 1:5.7m+",
-      "type": "symbol",
-      "source": "esri",
-      "source-layer": "Capital:1",
-      "filter": [
-        "==",
-        "_label_class1",
-        1
-      ],
-      "maxzoom": 5,
-      "layout": {
-        "text-font": [
-          "Source Sans Pro Semibold"
-        ],
-        "text-size": 13,
-        "text-anchor": "center",
-        "text-offset": [
-          0.270711,
-          0.0292893
-        ],
-        "text-field": "{_name1}",
-        "text-optional": true
-      },
-      "paint": {
-        "text-color": "rgba(41,41,41,0.75)"
-      }
-    },
-    {
-      "id": "OS/Names/National/Country/label/Country National 1:5.7m+",
-      "type": "symbol",
-      "source": "esri",
-      "source-layer": "Country",
-      "filter": [
-        "==",
-        "_label_class1",
-        1
-      ],
-      "maxzoom": 5,
-      "layout": {
-        "text-font": [
-          "Source Sans Pro Semibold"
-        ],
-        "text-size": 16,
-        "text-anchor": "center",
-        "text-letter-spacing": 0.5,
-        "text-field": "{_name1}",
-        "text-optional": true
-      },
-      "paint": {
-        "text-color": "rgba(43,43,43,0.5)",
-        "text-halo-color": "rgb(244,244,244)",
-        "text-halo-width": 1.5
-      }
     }
   ]
 }
