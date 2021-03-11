@@ -6294,6 +6294,7 @@
       "type": "symbol",
       "source": "esri",
       "source-layer": "Capital:1",
+      "minzoom": 4,
       "maxzoom": 9,
       "layout": {
         "icon-image": "OS/Names/National/Capital:1",
@@ -6308,6 +6309,7 @@
       "type": "symbol",
       "source": "esri",
       "source-layer": "Country",
+      "minzoom": 4,
       "maxzoom": 9,
       "layout": {
         "icon-image": "OS/Names/National/Country",
